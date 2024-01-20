@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,00;1,600&display=swap');
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
 .project-section{
     padding: 4rem;
     margin: 2rem 0;
@@ -23,6 +28,7 @@
     margin: 1rem;
     border: 1px solid #aaa;
     border-radius: 8px;
+    transition: all .3s ease-in-out;
 }
 .projects{
     display: flex;
@@ -49,7 +55,7 @@
     margin-top: 1rem;
     transition: all .2s ease-in-out;
 }
-.github-icon:hover{
+.icons:hover{
     filter: grayscale(100%) brightness(90%) sepia(35%) hue-rotate(-129deg) saturate(600%) contrast(1);
     transform: translateY(-3px);
 }
@@ -68,12 +74,17 @@
     transition: all .3s ease-in-out;
     
 }
-.project-card:hover{
+.project-card a{
+    height: 100%;
+}
+.project-card:hover, .sms:hover{
     transform: translateY(-.5rem);
+    box-shadow: 1px 1px 15px #aaaaaa46;
 }
 .other-projects{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .other-project-head{
     text-align: center;

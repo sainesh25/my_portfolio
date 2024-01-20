@@ -11,6 +11,7 @@ export default function Projects() {
         <>
             <div className='project-section ' id='projectId'>
                 <h1 className='skills-head'>Some things I have built...</h1>
+                <h2 className='other-project-head'>Featured Projects</h2>
                 <div className="projects">
                     <div className="sms">
                         <p className='featured-project-txt'>Featured Project</p>
@@ -62,7 +63,7 @@ export default function Projects() {
 
                 </div>
 
-                <h2 className='sms-head other-project-head'>Other Noteworthy projects</h2>
+                <h2 className='other-project-head'>Other Noteworthy projects</h2>
                 <div className="other-projects">
                     <div className="project-card">
                         <div className='project-icons'>
@@ -82,6 +83,7 @@ export default function Projects() {
                         </div>
 
                     </div>
+                    
                     <div className="project-card">
                         <div className='project-icons'>
                             <img src={folderIcon} alt="" />
@@ -100,6 +102,7 @@ export default function Projects() {
                         </div>
 
                     </div>
+                    
                     <div className="project-card">
                         <div className='project-icons'>
                             <img src={folderIcon} alt="" />
@@ -108,6 +111,7 @@ export default function Projects() {
                                 <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
                                 <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
+
                         </div>
                         <h3 className='sub-project-head'>To Do List</h3>
                         <p>Created a streamlined to-do list feature with an intuitive interface. Users can add, delete, and mark tasks as done, enhancing task management and user experience.</p>
@@ -118,6 +122,7 @@ export default function Projects() {
                         </div>
 
                     </div>
+                    
                     <div className="project-card">
                         <div className='project-icons'>
                             <img src={folderIcon} alt="" />
@@ -126,16 +131,95 @@ export default function Projects() {
                                 <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
                                 <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
+
                         </div>
-                        <h3 className='sub-project-head'>Olla-agency Home page</h3>
-                        <p>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
+                        <h3 className='sub-project-head'>Aadhar Card Registration Form</h3>
+                        <p>The JavaScript code validates Aadhar form inputs, displaying custom error messages. It ensures data accuracy and requires agreement to terms for successful submission.</p>
                         <div className="languages">
                             <p>HTML5</p>
                             <p>CSS3</p>
+                            <p>JavaScript</p>
                         </div>
 
                     </div>
-                    
+
+                    <div className="project-card">
+                        <a href="https://olla-agency-static.netlify.app/" target="_blank">
+                            <div className='project-icons'>
+                                <img src={folderIcon} alt="" />
+
+                                <div className="github-icon">
+                                    <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                </div>
+                            </div>
+                            <h3 className='sub-project-head'>Olla-agency Home page</h3>
+                            <p>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
+                            <div className="languages">
+                                <p>HTML5</p>
+                                <p>CSS3</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className="project-card">
+                        <a href="https://rolax-resort-static.netlify.app/" target="_blank">
+                            <div className='project-icons'>
+                                <img src={folderIcon} alt="" />
+
+                                <div className="github-icon">
+                                    <a href="https://github.com/sainesh25/rolaxResort-homepage.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://rolax-resort-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                </div>
+                            </div>
+                            <h3 className='sub-project-head'>Rolax Resort Home page</h3>
+                            <p>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
+                            <div className="languages">
+                                <p>HTML5</p>
+                                <p>CSS3</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className="project-card">
+                        <a href="https://landscaper-static.netlify.app/" target="_blank">
+                            <div className='project-icons'>
+                                <img src={folderIcon} alt="" />
+
+                                <div className="github-icon">
+                                    <a href="https://github.com/sainesh25/landscaper-static-page.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://landscaper-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                </div>
+                            </div>
+                            <h3 className='sub-project-head'>Landscaper Home page</h3>
+                            <p>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
+                            <div className="languages">
+                                <p>HTML5</p>
+                                <p>CSS3</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className="project-card">
+                        <a href="http://water-boat-static.netlify.app/" target="_blank">
+                            <div className='project-icons'>
+                                <img src={folderIcon} alt="" />
+
+                                <div className="github-icon">
+                                    <a href="https://github.com/sainesh25/water-boat-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://water-boat-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                </div>
+                            </div>
+                            <h3 className='sub-project-head'>Water Boat Home page</h3>
+                            <p>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
+                            <div className="languages">
+                                <p>HTML5</p>
+                                <p>CSS3</p>
+                            </div>
+                        </a>
+                    </div>
+
+
                 </div>
             </div>
         </>

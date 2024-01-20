@@ -18,8 +18,8 @@ function App() {
 
             <Home/>
             <Skills/>
-            <Contact/>
             <Projects/>
+            <Contact/>
             <Social/>
             {/* <Routes>
                 <Route path='/' element={<Home/>}/>
