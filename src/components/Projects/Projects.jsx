@@ -2,7 +2,7 @@ import React from 'react';
 import "./Projects.css";
 import githubIcon from './github-svgrepo-com.svg';
 import goToPage from './external-link-svgrepo-com.svg';
-
+import folderIcon from './folder-svgrepo-com.svg';
 
 export default function Projects() {
 
@@ -65,6 +65,8 @@ export default function Projects() {
                 <h2 className='sms-head other-project-head'>Other Noteworthy projects</h2>
                 <div className="other-projects">
                     <div className="project-card">
+                    <img src={folderIcon} alt="" />
+
                         <div className="github-icon">
 
                             <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
