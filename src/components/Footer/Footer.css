@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,00;1,600&display=swap');
+
+.footer-txt{
+    color: #aaa;
+    text-align: center;
+}
+.footer-section{
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+@media (max-width: 576px){
+    .footer-txt{
+        font-size: .8rem;
+    }
+    .footer-section{
+        padding: .5rem 0;
+    }
+}

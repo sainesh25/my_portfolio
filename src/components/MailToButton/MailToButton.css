@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,00;1,600&display=swap');
+
+.mail-btn{
+    margin-top: 1.5rem;
+    text-decoration: none;
+    background: linear-gradient(to right, #c280fc, #b996ff);
+    color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-family: "Roboto Mono", monospace;
+    background-color: #eeeeee;
+    display: inline-block;
+    border: 2px solid ;
+    border-radius: 5px;
+    line-height: 2.6rem;
+    padding: .2rem 1.5rem;
+    height: 3rem;
+    width: 8rem;
+    border-image:  linear-gradient(#8e2de2 0%, #4a00e0 50%) 1;
+    transition: all .2s cubic-bezier(0,.52,1,.68);
+}
+.mail-btn:hover{
+    transform: translate(-5px, -5px);
+    /* transition: all .5s cubic-bezier(.9,.9,.9,.9); */
+    box-shadow: 6px 5px 0px #8e2de2;
+    border-radius: 1px;
+}
+
+@media (max-width: 576px){
+    .mail-btn{
+        width: 5rem;
+        height: 2.5rem;
+        font-size: .8rem;
+    }
+}

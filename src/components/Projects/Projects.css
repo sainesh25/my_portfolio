@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,00;1,600&display=swap');
+.project-section{
+    padding: 4rem;
+    margin: 2rem 0;
+}
+.sms-head{
+    margin: 0;
+}
+.featured-project-txt{
+    margin-bottom: .5rem;
+    color: rgb(172, 84, 255);
+    font-family: "Roboto Mono", monospace;
+
+}
+.sms{
+    color: #c5c5c5;
+    background-color: rgb(39, 39, 39);
+    width: 40%;
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-info p{
+    text-align: justify;
+}
+.languages{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.languages p{
+    margin: 0 .5rem;
+    font-size: .8rem;
+    font-family: "Roboto Mono", monospace;
+
+}
+.github-icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    transition: all .2s ease-in-out;
+}
+.github-icon:hover{
+    filter: grayscale(100%) brightness(90%) sepia(35%) hue-rotate(-129deg) saturate(600%) contrast(1);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 1200px){
+    .sms{
+        width: 100%;
+    }
+}
+@media (max-width: 992px){
+
+}
+@media (max-width: 767px){
+    .project-section{
+        padding: 0rem;
+    }
+    .sms-head{
+        font-size: 1.2rem;
+    }
+    .featured-project-txt{
+        font-size: .9rem;
+    }
+}
+@media (max-width: 576px){
+    .sms-head{
+        font-size: 1rem;
+    }
+    .project-info p{
+        font-size: .8rem;
+    }
+    .sms{
+        padding: 1rem 1.2rem;
+    }
+    .featured-project-txt{
+        font-size: .8rem;
+    }
+}
