@@ -53,18 +53,27 @@
     filter: grayscale(100%) brightness(90%) sepia(35%) hue-rotate(-129deg) saturate(600%) contrast(1);
     transform: translateY(-3px);
 }
+.project-icons{
+    display: flex;
+    justify-content: space-between;
+}
 .project-card{
-    background-color: black;
+    background-color: rgb(39, 39, 39);
     color: #aaa;
-    padding: 1rem;
-    width: 20rem;
+    padding: 2rem;
+    width: 16rem;
     margin: .8rem;
     border-radius: 5px;
     border: 1px solid #aaaaaa81;
-    /* border */
+    transition: all .3s ease-in-out;
+    
+}
+.project-card:hover{
+    transform: translateY(-.5rem);
 }
 .other-projects{
     display: flex;
+    flex-wrap: wrap;
 }
 .other-project-head{
     text-align: center;

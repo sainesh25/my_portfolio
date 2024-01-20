@@ -65,14 +65,67 @@ export default function Projects() {
                 <h2 className='sms-head other-project-head'>Other Noteworthy projects</h2>
                 <div className="other-projects">
                     <div className="project-card">
-                    <img src={folderIcon} alt="" />
+                        <div className='project-icons'>
+                            <img src={folderIcon} alt="" />
 
-                        <div className="github-icon">
+                            <div className="github-icon">
+                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                            </div>
+                        </div>
+                        <h3 className='sub-project-head'>Quote Generator</h3>
+                        <p>Designed a brief quote generator with copy-to-clipboard functionality. Users can easily generate and share quotes on Twitter, enhancing accessibility and user experience.</p>
+                        <div className="languages">
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>JavaScript</p>
+                        </div>
 
-                            <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                    </div>
+                    <div className="project-card">
+                        <div className='project-icons'>
+                            <img src={folderIcon} alt="" />
 
-                            <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                            <div className="github-icon">
+                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                            </div>
+                        </div>
+                        <h3 className='sub-project-head'>Tip Calculator</h3>
+                        <p>Developed interactive features for a web-based tip calculator, including dynamic adjustments for tip and GST percentages, real-time calculations, and a split bill feature.</p>
+                        <div className="languages">
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>JavaScript</p>
+                        </div>
 
+                    </div>
+                    <div className="project-card">
+                        <div className='project-icons'>
+                            <img src={folderIcon} alt="" />
+
+                            <div className="github-icon">
+                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                            </div>
+                        </div>
+                        <h3 className='sub-project-head'>To Do List</h3>
+                        <p>Created a streamlined to-do list feature with an intuitive interface. Users can add, delete, and mark tasks as done, enhancing task management and user experience.</p>
+                        <div className="languages">
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>JavaScript</p>
+                        </div>
+
+                    </div>
+                    <div className="project-card">
+                        <div className='project-icons'>
+                            <img src={folderIcon} alt="" />
+
+                            <div className="github-icon">
+                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                            </div>
                         </div>
                         <h3 className='sub-project-head'>Olla-agency Home page</h3>
                         <p>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
@@ -82,12 +135,7 @@ export default function Projects() {
                         </div>
 
                     </div>
-                    <div className="project-card">
-
-                    </div>
-                    <div className="project-card">
-
-                    </div>
+                    
                 </div>
             </div>
         </>
