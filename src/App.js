@@ -1,7 +1,5 @@
-import { Route, Routes } from 'react-router';
 
 import './App.css';
-import MyName from './components/MyName/MyName';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Skills from './components/Skills/Skills';
