@@ -23,7 +23,7 @@ a{
 .sms{
     color: #c5c5c5;
     background-color: rgb(39, 39, 39);
-    width: 40%;
+    width: 35%;
     padding: 2rem;
     margin: 1rem;
     border: 1px solid #aaa;
@@ -67,7 +67,7 @@ a{
     background-color: rgb(39, 39, 39);
     color: #aaa;
     padding: 2rem;
-    width: 16rem;
+    width: 15rem;
     margin: .8rem;
     border-radius: 5px;
     border: 1px solid #aaaaaa81;
