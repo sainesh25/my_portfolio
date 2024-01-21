@@ -70,7 +70,7 @@ export default function Projects() {
 
                             <div className="github-icon">
                                 <a href="https://github.com/sainesh25/quote-generator.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <a href="https://quote-generator-by-saineshp.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
                         </div>
                         <h3 className='sub-project-head sms-head'>Quote Generator</h3>
@@ -89,7 +89,7 @@ export default function Projects() {
 
                             <div className="github-icon">
                                 <a href="https://github.com/sainesh25/tip_calculator.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <a href="https://tip-calculator-by-sainesh.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
                         </div>
                         <h3 className='sub-project-head sms-head'>Tip Calculator</h3>
