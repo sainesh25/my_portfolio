@@ -13,7 +13,7 @@ export default function Social() {
             <div className="social-wrapper">
                 <div className='social-icons'>
 
-                    <a href='https://www.linkedin.com/in/sainesh-patil/' target='_blank' className='social-btn'><img src={linkedinIcon} alt="linkedin" rel="noreferrer noopener"/></a>
+                    <a href='https://www.linkedin.com/in/sainesh-patil/' target='_blank' className='social-btn' rel="noreferrer noopener"><img src={linkedinIcon} alt="linkedin" /></a>
                     <a href='https://github.com/sainesh25' target='_blank' className='social-btn' rel="noreferrer noopener"><img src={githubIcon} alt="github"/></a>
                     <a href='https://www.instagram.com/saineshpatil2505/' target='_blank' className='social-btn' rel="noreferrer noopener"><img src={instagramIcon} alt="instagram"/></a>
                     <a href='https://twitter.com/SaineshPatil25' target='_blank' className='social-btn' rel="noreferrer noopener"><img src={twitterIcon} alt="twitter"/></a>
