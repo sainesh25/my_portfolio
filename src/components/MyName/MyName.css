@@ -27,8 +27,16 @@
     color: #808080;
     line-height: 4.2rem;
 }
+.my-intro-txt{
+    width: 40rem;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+.important-txt{
+    color: #8e2de2;
+    font-family: "Roboto Mono", monospace;
 
-
+}
 @media (max-width: 1200px){
     
 }
@@ -57,7 +65,7 @@
     .tagline{
         font-size: 1.5rem;
         padding-right: 5rem;
-        line-height: 3rem;
+        line-height: 2.8rem;
         padding-right: 0;
     }
     .my-info{
@@ -69,7 +77,7 @@
 }
 @media (max-width: 400px ){
     .tagline{
-        line-height: 2.5rem;
+        line-height: 2.4rem;
     }
     .my-info{
         padding: 2rem 0;

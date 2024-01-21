@@ -73,6 +73,7 @@ a{
     border: 1px solid #aaaaaa81;
     transition: all .3s ease-in-out;
     flex-grow: 1;
+    cursor: pointer;
 }
 .project-summary-txt{
     text-align: justify;
