@@ -24,7 +24,7 @@ export default function Social() {
 
                 <div className="email-wrapper">
                     <div className="email-txt">
-                        <a href="mailto:patilsainesh25@gmail.com" target="_blank" className='email-link'>patilsainesh25@gmail.com</a>
+                        <a href="mailto:patilsainesh25@gmail.com" rel="noreferrer" target="_blank" className='email-link'>patilsainesh25@gmail.com</a>
                         <div className="line"></div>
                     </div>
                 </div>
