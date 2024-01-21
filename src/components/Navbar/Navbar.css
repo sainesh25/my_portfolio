@@ -3,19 +3,27 @@ nav{
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.062);
-    position: sticky;
+    position: fixed;
     z-index: 2;
     width: 100%;
-    background-color: inherit;
+    /* background-color: inherit; */
+    background: #1c1c1cb7;
+    backdrop-filter: blur(10px);
+    
+    transition: all .3s ease-in-out;
 }
 
 .content{
-    padding-top: 5rem;
+    transition: top .3s ;
+    /* padding-top: 5rem; */
+    top: -100px;
+
 }
 .nav-bar{
     display: flex;
     justify-content: space-evenly;
     padding: 1rem 2rem 1rem 1rem;
+
 }
 /* .logo{
     background-color: rgba(255, 255, 255, 0);
@@ -45,6 +53,7 @@ nav{
 .resume-link{
     
 }
+
 
 @media (max-width: 1200px){
     

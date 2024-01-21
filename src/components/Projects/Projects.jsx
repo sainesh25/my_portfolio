@@ -65,6 +65,7 @@ export default function Projects() {
                 <h2 className='other-project-head'>Other Noteworthy projects</h2>
                 <div className="other-projects">
                     <div className="project-card">
+                        <a href="https://quote-generator-by-saineshp.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <div className='project-icons'>
                             <img src={folderIcon} alt="" />
 
@@ -80,10 +81,11 @@ export default function Projects() {
                             <p>CSS3</p>
                             <p>JavaScript</p>
                         </div>
-
+                        </a>
                     </div>
 
                     <div className="project-card">
+                        <a href="https://tip-calculator-by-saineshp.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <div className='project-icons'>
                             <img src={folderIcon} alt=""/>
 
@@ -99,7 +101,7 @@ export default function Projects() {
                             <p>CSS3</p>
                             <p>JavaScript</p>
                         </div>
-
+                        </a>
                     </div>
 
                     <div className="project-card">
