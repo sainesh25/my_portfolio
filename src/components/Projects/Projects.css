@@ -72,7 +72,10 @@ a{
     border-radius: 5px;
     border: 1px solid #aaaaaa81;
     transition: all .3s ease-in-out;
-    
+    flex-grow: 1;
+}
+.project-summary-txt{
+    text-align: justify;
 }
 .project-card a{
     height: 100%;
@@ -90,6 +93,7 @@ a{
     text-align: center;
     margin-top: 2rem;
 }
+
 .icons{
     margin: .5rem;
 }
@@ -97,9 +101,11 @@ a{
     .sms{
         width: 100%;
     }
+    .project-card{
+        width: 100%;
+    }
 }
 @media (max-width: 992px){
-
 }
 @media (max-width: 767px){
     .project-section{
@@ -111,12 +117,18 @@ a{
     .featured-project-txt{
         font-size: .9rem;
     }
+    .project-card{
+        padding: 1.5rem;
+    }
 }
 @media (max-width: 576px){
     .sms-head{
         font-size: 1rem;
     }
-    .project-info p{
+    .featured-project-head-main{
+        font-size: 1rem;
+    }
+    .project-info p, .project-summary-txt{
         font-size: .8rem;
     }
     .sms{
@@ -125,4 +137,8 @@ a{
     .featured-project-txt{
         font-size: .8rem;
     }
+    .project-card{
+        padding: 1rem;
+    }
+    
 }

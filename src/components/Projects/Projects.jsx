@@ -11,7 +11,7 @@ export default function Projects() {
         <>
             <div className='project-section ' id='projectId'>
                 <h1 className='skills-head'>Some things I have built...</h1>
-                <h2 className='other-project-head'>Featured Projects</h2>
+                <h2 className='other-project-head featured-project-head-main'>Featured Projects</h2>
                 <div className="projects">
                     <div className="sms">
                         <p className='featured-project-txt'>Featured Project</p>
@@ -60,7 +60,6 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-
                 </div>
 
                 <h2 className='other-project-head'>Other Noteworthy projects</h2>
@@ -70,12 +69,12 @@ export default function Projects() {
                             <img src={folderIcon} alt="" />
 
                             <div className="github-icon">
-                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <a href="https://github.com/sainesh25/quote-generator.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
                         </div>
-                        <h3 className='sub-project-head'>Quote Generator</h3>
-                        <p>Designed a brief quote generator with copy-to-clipboard functionality. Users can easily generate and share quotes on Twitter, enhancing accessibility and user experience.</p>
+                        <h3 className='sub-project-head sms-head'>Quote Generator</h3>
+                        <p className='project-summary-txt'>Designed a brief quote generator with copy-to-clipboard functionality. Users can easily generate and share quotes on Twitter, enhancing accessibility and user experience.</p>
                         <div className="languages">
                             <p>HTML5</p>
                             <p>CSS3</p>
@@ -83,18 +82,18 @@ export default function Projects() {
                         </div>
 
                     </div>
-                    
+
                     <div className="project-card">
                         <div className='project-icons'>
-                            <img src={folderIcon} alt="" />
+                            <img src={folderIcon} alt=""/>
 
                             <div className="github-icon">
-                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <a href="https://github.com/sainesh25/tip_calculator.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
                         </div>
-                        <h3 className='sub-project-head'>Tip Calculator</h3>
-                        <p>Developed interactive features for a web-based tip calculator, including dynamic adjustments for tip and GST percentages, real-time calculations, and a split bill feature.</p>
+                        <h3 className='sub-project-head sms-head'>Tip Calculator</h3>
+                        <p className='project-summary-txt'>Developed interactive features for a web-based tip calculator, including dynamic adjustments for tip and GST percentages, real-time calculations, and a split bill feature.</p>
                         <div className="languages">
                             <p>HTML5</p>
                             <p>CSS3</p>
@@ -102,27 +101,7 @@ export default function Projects() {
                         </div>
 
                     </div>
-                    
-                    <div className="project-card">
-                        <div className='project-icons'>
-                            <img src={folderIcon} alt="" />
 
-                            <div className="github-icon">
-                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
-                            </div>
-
-                        </div>
-                        <h3 className='sub-project-head'>To Do List</h3>
-                        <p>Created a streamlined to-do list feature with an intuitive interface. Users can add, delete, and mark tasks as done, enhancing task management and user experience.</p>
-                        <div className="languages">
-                            <p>HTML5</p>
-                            <p>CSS3</p>
-                            <p>JavaScript</p>
-                        </div>
-
-                    </div>
-                    
                     <div className="project-card">
                         <div className='project-icons'>
                             <img src={folderIcon} alt="" />
@@ -133,8 +112,28 @@ export default function Projects() {
                             </div>
 
                         </div>
-                        <h3 className='sub-project-head'>Aadhar Card Registration Form</h3>
-                        <p>The JavaScript code validates Aadhar form inputs, displaying custom error messages. It ensures data accuracy and requires agreement to terms for successful submission.</p>
+                        <h3 className='sub-project-head sms-head'>To Do List</h3>
+                        <p className='project-summary-txt'>Created a streamlined to-do list feature with an intuitive interface. Users can add, delete, and mark tasks as done, enhancing task management and user experience.</p>
+                        <div className="languages">
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>JavaScript</p>
+                        </div>
+
+                    </div>
+
+                    <div className="project-card">
+                        <div className='project-icons'>
+                            <img src={folderIcon} alt="" />
+
+                            <div className="github-icon">
+                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                            </div>
+
+                        </div>
+                        <h3 className='sub-project-head sms-head'>Aadhar Card Registration Form</h3>
+                        <p className='project-summary-txt'>The JavaScript code validates Aadhar form inputs, displaying custom error messages. It ensures data accuracy and requires agreement to terms for successful submission.</p>
                         <div className="languages">
                             <p>HTML5</p>
                             <p>CSS3</p>
@@ -153,8 +152,8 @@ export default function Projects() {
                                     <a href="https://olla-agency-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                                 </div>
                             </div>
-                            <h3 className='sub-project-head'>Olla-agency Home page</h3>
-                            <p>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
+                            <h3 className='sub-project-head sms-head'>Olla-agency Home page</h3>
+                            <p className='project-summary-txt'>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
                             <div className="languages">
                                 <p>HTML5</p>
                                 <p>CSS3</p>
@@ -172,8 +171,8 @@ export default function Projects() {
                                     <a href="https://rolax-resort-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                                 </div>
                             </div>
-                            <h3 className='sub-project-head'>Rolax Resort Home page</h3>
-                            <p>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
+                            <h3 className='sub-project-head sms-head'>Rolax Resort Home page</h3>
+                            <p className='project-summary-txt'>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
                             <div className="languages">
                                 <p>HTML5</p>
                                 <p>CSS3</p>
@@ -191,8 +190,8 @@ export default function Projects() {
                                     <a href="https://landscaper-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                                 </div>
                             </div>
-                            <h3 className='sub-project-head'>Landscaper Home page</h3>
-                            <p>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
+                            <h3 className='sub-project-head sms-head'>Landscaper Home page</h3>
+                            <p className='project-summary-txt'>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
                             <div className="languages">
                                 <p>HTML5</p>
                                 <p>CSS3</p>
@@ -210,8 +209,8 @@ export default function Projects() {
                                     <a href="https://water-boat-static.netlify.app/" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                                 </div>
                             </div>
-                            <h3 className='sub-project-head'>Water Boat Home page</h3>
-                            <p>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
+                            <h3 className='sub-project-head sms-head'>Water Boat Home page</h3>
+                            <p className='project-summary-txt'>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
                             <div className="languages">
                                 <p>HTML5</p>
                                 <p>CSS3</p>
