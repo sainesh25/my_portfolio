@@ -56,7 +56,7 @@ export default function Projects() {
                                 <p>OpenWeather_API</p>
                             </div>
                             <div className="github-icon">
-                                <a href=" https://github.com/sainesh25/weather_app" target="_blank" rel="noreferrer"><img src={githubIcon} alt="github" /></a>
+                                <a href=" https://github.com/sainesh25/weather_app" target="_blank" rel="norefferer noopener"><img src={githubIcon} alt="github" /></a>
                             </div>
                         </div>
                     </div>
@@ -69,8 +69,8 @@ export default function Projects() {
                             <img src={folderIcon} alt="" />
 
                             <div className="github-icon">
-                                <a href="https://github.com/sainesh25/quote-generator.git" target="_blank" className='icons' rel="noreferrer"><img src={githubIcon} alt="github" /></a>
-                                <a href="https://quote-generator-by-saineshp.netlify.app/" target="_blank" rel="noreferrer"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <a href="https://github.com/sainesh25/quote-generator.git" target="_blank" className='icons' rel="norefferer noopener"><img src={githubIcon} alt="github" /></a>
+                                <a href="https://quote-generator-by-saineshp.netlify.app/" target="_blank" rel="norefferer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
                         </div>
                         <h3 className='sub-project-head sms-head'>Quote Generator</h3>
@@ -88,8 +88,8 @@ export default function Projects() {
                             <img src={folderIcon} alt=""/>
 
                             <div className="github-icon">
-                                <a href="https://github.com/sainesh25/tip_calculator.git" rel="noreferrer" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://tip-calculator-by-saineshp.netlify.app/" rel="noreferrer" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <a href="https://github.com/sainesh25/tip_calculator.git" rel="norefferer noopener" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="https://tip-calculator-by-saineshp.netlify.app/" rel="norefferer noopener" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
                         </div>
                         <h3 className='sub-project-head sms-head'>Tip Calculator</h3>
@@ -107,8 +107,8 @@ export default function Projects() {
                             <img src={folderIcon} alt="" />
 
                             <div className="github-icon">
-                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" rel="noreferrer" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="noreferrer"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" rel="norefferer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="norefferer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
 
                         </div>
@@ -127,8 +127,8 @@ export default function Projects() {
                             <img src={folderIcon} alt="" />
 
                             <div className="github-icon">
-                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" rel="noreferrer" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="noreferrer"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" rel="norefferer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="norefferer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
 
                         </div>
@@ -143,13 +143,13 @@ export default function Projects() {
                     </div>
 
                     <div className="project-card">
-                        <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="noreferrer">
+                        <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="norefferer noopener">
                             <div className='project-icons'>
                                 <img src={folderIcon} alt="" />
 
                                 <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" rel="noreferrer"/></a>
-                                    <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="noreferrer"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                    <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons'><img src={githubIcon} alt="github" rel="noreferrer noopener"/></a>
+                                    <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="norefferer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
                                 </div>
                             </div>
                             <h3 className='sub-project-head sms-head'>Olla-agency Home page</h3>
@@ -162,13 +162,13 @@ export default function Projects() {
                     </div>
 
                     <div className="project-card">
-                        <a href="https://rolax-resort-static.netlify.app/" target="_blank" rel="noreferrer">
+                        <a href="https://rolax-resort-static.netlify.app/" target="_blank" rel="norefferer noopener">
                             <div className='project-icons'>
                                 <img src={folderIcon} alt="" />
 
                                 <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/rolaxResort-homepage.git" target="_blank" className='icons' rel="noreferrer"><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://rolax-resort-static.netlify.app/" target="_blank" rel="noreferrer"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                    <a href="https://github.com/sainesh25/rolaxResort-homepage.git" target="_blank" className='icons' rel="norefferer noopener"><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://rolax-resort-static.netlify.app/" target="_blank" rel="norefferer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
                                 </div>
                             </div>
                             <h3 className='sub-project-head sms-head'>Rolax Resort Home page</h3>
@@ -181,13 +181,13 @@ export default function Projects() {
                     </div>
 
                     <div className="project-card">
-                        <a href="https://landscaper-static.netlify.app/" target="_blank" rel="noreferrer">
+                        <a href="https://landscaper-static.netlify.app/" target="_blank" rel="norefferer noopener">
                             <div className='project-icons'>
                                 <img src={folderIcon} alt="" />
 
                                 <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/landscaper-static-page.git" target="_blank" className='icons' rel="noreferrer"><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://landscaper-static.netlify.app/" target="_blank" rel="noreferrer"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                    <a href="https://github.com/sainesh25/landscaper-static-page.git" target="_blank" className='icons' rel="norefferer noopener"><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://landscaper-static.netlify.app/" target="_blank" rel="norefferer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
                                 </div>
                             </div>
                             <h3 className='sub-project-head sms-head'>Landscaper Home page</h3>
@@ -200,13 +200,13 @@ export default function Projects() {
                     </div>
 
                     <div className="project-card">
-                        <a href="http://water-boat-static.netlify.app/" target="_blank" rel="noreferrer">
+                        <a href="http://water-boat-static.netlify.app/" target="_blank" rel="norefferer noopener">
                             <div className='project-icons'>
                                 <img src={folderIcon} alt="" />
 
                                 <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/water-boat-static.git" target="_blank" className='icons' rel="noreferrer"><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://water-boat-static.netlify.app/" target="_blank" rel="noreferrer"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                    <a href="https://github.com/sainesh25/water-boat-static.git" target="_blank" className='icons' rel="norefferer noopener"><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://water-boat-static.netlify.app/" target="_blank" rel="norefferer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
                                 </div>
                             </div>
                             <h3 className='sub-project-head sms-head'>Water Boat Home page</h3>

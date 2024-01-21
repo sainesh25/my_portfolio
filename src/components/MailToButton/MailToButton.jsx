@@ -7,7 +7,7 @@ const MailtoButton = () => {
     const mailtoLink = `mailto:${emailAddress}`;
 
     return (
-        <a className='mail-btn' href={mailtoLink} target="_blank" rel="noreferrer">Say Hello!</a>
+        <a className='mail-btn' href={mailtoLink} target="_blank" rel="norefferer noopener">Say Hello!</a>
     );
 };
 
