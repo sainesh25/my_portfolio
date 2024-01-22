@@ -41,7 +41,7 @@ export default function Projects() {
 
                             </div>
                             <div className="github-icon">
-                                <img src={githubIcon} alt="github" />
+                                <a href="https://github.com/sainesh25/savings_calculator.git" target="_blank" rel="noopener noreferrer" className='icons'><img src={githubIcon} alt="github" /></a> 
                             </div>
                         </div>
                     </div>
