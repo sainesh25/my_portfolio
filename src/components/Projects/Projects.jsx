@@ -26,7 +26,7 @@ export default function Projects() {
                                 <p>Bootstrap</p>
                             </div>
                             <div className="github-icon">
-                                {/* <img src={githubIcon} alt="github" /> */}
+                                {/* <img src={githubIcon} alt="github" className='icons'/> */}
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export default function Projects() {
                                 <p>ReactJs</p>
                             </div>
                             <div className="github-icon">
-                                <a href="https://github.com/sainesh25/savings_calculator.git" target="_blank" rel="noopener noreferrer" className='icons'><img src={githubIcon} alt="github" /></a> 
+                                <a href="https://github.com/sainesh25/savings_calculator.git" target="_blank" rel="noopener noreferrer" ><img src={githubIcon} alt="github" className='icons'/></a> 
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ export default function Projects() {
                                 <p>OpenWeather_API</p>
                             </div>
                             <div className="github-icon">
-                                <a href=" https://github.com/sainesh25/weather_app" target="_blank" rel="noreferrer noopener"><img src={githubIcon} alt="github" /></a>
+                                <a href=" https://github.com/sainesh25/weather_app" target="_blank" rel="noreferrer noopener"><img src={githubIcon} alt="github" className='icons'/></a>
                             </div>
                         </div>
                     </div>
