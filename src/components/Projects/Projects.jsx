@@ -128,8 +128,8 @@ export default function Projects() {
                             <img src={folderIcon} alt="" />
 
                             <div className="github-icon">
-                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" rel="noreferrer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <a href="https://github.com/sainesh25/aadhar-card-form-registration.git" target="_blank" rel="noreferrer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="https://aadhar-form-registration-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
 
                         </div>
