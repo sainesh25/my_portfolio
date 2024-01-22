@@ -24,7 +24,7 @@ a{
     color: #c5c5c5;
     background-color: rgb(39, 39, 39);
     width: 35%;
-    padding: 2rem;
+    padding: 1.5rem 2rem;
     margin: 1rem;
     border: 1px solid #aaa;
     border-radius: 8px;
@@ -140,6 +140,9 @@ a{
     }
     .project-card{
         padding: 1rem;
+    }
+    .languages p{
+        font-size: .7rem;
     }
     
 }
