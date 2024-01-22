@@ -10,16 +10,17 @@ nav{
     background: #1c1c1cb7;
     backdrop-filter: blur(10px);
     
-    transition: all .3s ease-in-out;
+    /* transition: all .3s ease-in-out; */
 }
 
 .content{
-    transition: top .3s ;
+    transition: top .5s ease-in-out;
     /* padding-top: 5rem; */
     top: -100px;
-
+    
 }
 .nav-bar{
+    transition: top .5s ease-in-out;
     display: flex;
     justify-content: space-evenly;
     padding: 1rem 2rem 1rem 1rem;

@@ -50,6 +50,9 @@
         padding-right: 5rem;
         line-height: 3rem;
     }
+    .my-intro-txt{
+        width: 100%;
+    }
 }
 @media (max-width: 767px){
     .tagline{
@@ -72,7 +75,7 @@
     .my-info{
         padding: 2.5rem;
     }
-    .intro-sentence{
+    .intro-sentence, .my-intro-txt{
         font-size: .8rem;
     }
 }
