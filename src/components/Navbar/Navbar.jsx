@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import { Link } from 'react-scroll';
 import { useEffect, useState} from "react";
+import resumepdf from './SaineshPatil_resume.pdf'; 
 
 export default function Navbar() {
 
@@ -44,7 +45,7 @@ export default function Navbar() {
                         duration={500}
                         delay={0}
                         className='nav-links'>Projects</Link>
-                    <Link to='/resume' className='nav-links resume-link'>Resume</Link>
+                     <a href={require('./SaineshPatil_resume.pdf')} target="_blank" rel="noopener noreferrer" className='nav-links'>Resume</a> 
                     <Link activeClass="active"
                         to="skillId"
                         smooth={true}
