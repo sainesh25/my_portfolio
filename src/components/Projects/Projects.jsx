@@ -38,7 +38,6 @@ export default function Projects() {
                             <p>The React-based web app enables users to track income and expenses, offering a simple interface for inputting financial transactions. It dynamically calculates and displays total income, expenses, and savings, providing users with a quick and efficient way to manage their finances.</p>
                             <div className="languages">
                                 <p>ReactJs</p>
-
                             </div>
                             <div className="github-icon">
                                 <a href="https://github.com/sainesh25/savings_calculator.git" target="_blank" rel="noopener noreferrer" className='icons'><img src={githubIcon} alt="github" /></a> 
@@ -109,8 +108,8 @@ export default function Projects() {
                             <img src={folderIcon} alt="" />
 
                             <div className="github-icon">
-                                <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" rel="noreferrer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <a href="https://github.com/sainesh25/to-do-list.git" target="_blank" rel="noreferrer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
+                                <a href="https://to-do-list-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
                             </div>
 
                         </div>
