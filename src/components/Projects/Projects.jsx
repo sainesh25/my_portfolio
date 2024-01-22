@@ -40,7 +40,7 @@ export default function Projects() {
                                 <p>ReactJs</p>
                             </div>
                             <div className="github-icon">
-                                <a href="https://github.com/sainesh25/savings_calculator.git" target="_blank" rel="noopener noreferrer" ><img src={githubIcon} alt="github" className='icons'/></a> 
+                                <a href="https://github.com/sainesh25/savings_calculator.git" target="_blank" rel="noopener noreferrer" ><img src={githubIcon} alt="github" className='icons' /></a>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ export default function Projects() {
                                 <p>OpenWeather_API</p>
                             </div>
                             <div className="github-icon">
-                                <a href=" https://github.com/sainesh25/weather_app" target="_blank" rel="noreferrer noopener"><img src={githubIcon} alt="github" className='icons'/></a>
+                                <a href=" https://github.com/sainesh25/weather_app" target="_blank" rel="noreferrer noopener"><img src={githubIcon} alt="github" className='icons' /></a>
                             </div>
                         </div>
                     </div>
@@ -65,82 +65,84 @@ export default function Projects() {
                 <div className="other-projects">
                     <div className="project-card">
                         <a href="https://quote-generator-by-saineshp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <div className='project-icons'>
-                            <img src={folderIcon} alt="" />
+                            <div className='project-icons'>
+                                <img src={folderIcon} alt="" />
 
-                            <div className="github-icon">
-                                <a href="https://github.com/sainesh25/quote-generator.git" target="_blank" className='icons' rel="noreferrer noopener"><img src={githubIcon} alt="github" /></a>
-                                <a href="https://quote-generator-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <div className="github-icon">
+                                    <a href="https://github.com/sainesh25/quote-generator.git" target="_blank" className='icons' rel="noreferrer noopener"><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://quote-generator-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                </div>
                             </div>
-                        </div>
-                        <h3 className='sub-project-head sms-head'>Quote Generator</h3>
-                        <p className='project-summary-txt'>Designed a brief quote generator with copy-to-clipboard functionality. Users can easily generate and share quotes on Twitter, enhancing accessibility and user experience.</p>
-                        <div className="languages">
-                            <p>HTML5</p>
-                            <p>CSS3</p>
-                            <p>JavaScript</p>
-                        </div>
+                            <h3 className='sub-project-head sms-head'>Quote Generator</h3>
+                            <p className='project-summary-txt'>Designed a brief quote generator with copy-to-clipboard functionality. Users can easily generate and share quotes on Twitter, enhancing accessibility and user experience.</p>
+                            <div className="languages">
+                                <p>HTML5</p>
+                                <p>CSS3</p>
+                                <p>JavaScript</p>
+                            </div>
                         </a>
                     </div>
 
                     <div className="project-card">
                         <a href="https://tip-calculator-by-saineshp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <div className='project-icons'>
-                            <img src={folderIcon} alt=""/>
+                            <div className='project-icons'>
+                                <img src={folderIcon} alt="" />
 
-                            <div className="github-icon">
-                                <a href="https://github.com/sainesh25/tip_calculator.git" rel="noreferrer noopener" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://tip-calculator-by-saineshp.netlify.app/" rel="noreferrer noopener" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <div className="github-icon">
+                                    <a href="https://github.com/sainesh25/tip_calculator.git" rel="noreferrer noopener" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://tip-calculator-by-saineshp.netlify.app/" rel="noreferrer noopener" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                </div>
                             </div>
-                        </div>
-                        <h3 className='sub-project-head sms-head'>Tip Calculator</h3>
-                        <p className='project-summary-txt'>Developed interactive features for a web-based tip calculator, including dynamic adjustments for tip and GST percentages, real-time calculations, and a split bill feature.</p>
-                        <div className="languages">
-                            <p>HTML5</p>
-                            <p>CSS3</p>
-                            <p>JavaScript</p>
-                        </div>
+                            <h3 className='sub-project-head sms-head'>Tip Calculator</h3>
+                            <p className='project-summary-txt'>Developed interactive features for a web-based tip calculator, including dynamic adjustments for tip and GST percentages, real-time calculations, and a split bill feature.</p>
+                            <div className="languages">
+                                <p>HTML5</p>
+                                <p>CSS3</p>
+                                <p>JavaScript</p>
+                            </div>
                         </a>
                     </div>
 
                     <div className="project-card">
-                        <div className='project-icons'>
-                            <img src={folderIcon} alt="" />
+                        <a href="https://to-do-list-by-saineshp.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <div className='project-icons'>
+                                <img src={folderIcon} alt="" />
 
-                            <div className="github-icon">
-                                <a href="https://github.com/sainesh25/to-do-list.git" target="_blank" rel="noreferrer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://to-do-list-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <div className="github-icon">
+                                    <a href="https://github.com/sainesh25/to-do-list.git" target="_blank" rel="noreferrer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://to-do-list-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                </div>
+
                             </div>
-
-                        </div>
-                        <h3 className='sub-project-head sms-head'>To Do List</h3>
-                        <p className='project-summary-txt'>Created a streamlined to-do list feature with an intuitive interface. Users can add, delete, and mark tasks as done, enhancing task management and user experience.</p>
-                        <div className="languages">
-                            <p>HTML5</p>
-                            <p>CSS3</p>
-                            <p>JavaScript</p>
-                        </div>
-
+                            <h3 className='sub-project-head sms-head'>To Do List</h3>
+                            <p className='project-summary-txt'>Created a streamlined to-do list feature with an intuitive interface. Users can add, delete, and mark tasks as done, enhancing task management and user experience.</p>
+                            <div className="languages">
+                                <p>HTML5</p>
+                                <p>CSS3</p>
+                                <p>JavaScript</p>
+                            </div>
+                        </a>
                     </div>
 
                     <div className="project-card">
-                        <div className='project-icons'>
-                            <img src={folderIcon} alt="" />
+                        <a href="https://aadhar-form-registration-by-saineshp.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <div className='project-icons'>
+                                <img src={folderIcon} alt="" />
 
-                            <div className="github-icon">
-                                <a href="https://github.com/sainesh25/aadhar-card-form-registration.git" target="_blank" rel="noreferrer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
-                                <a href="https://aadhar-form-registration-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                <div className="github-icon">
+                                    <a href="https://github.com/sainesh25/aadhar-card-form-registration.git" target="_blank" rel="noreferrer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
+                                    <a href="https://aadhar-form-registration-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                </div>
+
                             </div>
-
-                        </div>
-                        <h3 className='sub-project-head sms-head'>Aadhar Card Registration Form</h3>
-                        <p className='project-summary-txt'>The JavaScript code validates Aadhar form inputs, displaying custom error messages. It ensures data accuracy and requires agreement to terms for successful submission.</p>
-                        <div className="languages">
-                            <p>HTML5</p>
-                            <p>CSS3</p>
-                            <p>JavaScript</p>
-                        </div>
-
+                            <h3 className='sub-project-head sms-head'>Aadhar Card Registration Form</h3>
+                            <p className='project-summary-txt'>The JavaScript code validates Aadhar form inputs, displaying custom error messages. It ensures data accuracy and requires agreement to terms for successful submission.</p>
+                            <div className="languages">
+                                <p>HTML5</p>
+                                <p>CSS3</p>
+                                <p>JavaScript</p>
+                            </div>
+                        </a>
                     </div>
 
                     <div className="project-card">
