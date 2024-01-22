@@ -2,7 +2,6 @@ import React from 'react';
 import './Navbar.css';
 import { Link } from 'react-scroll';
 import { useEffect, useState} from "react";
-import resumepdf from './SaineshPatil_resume.pdf'; 
 
 export default function Navbar() {
 
