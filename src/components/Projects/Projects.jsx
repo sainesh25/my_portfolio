@@ -26,7 +26,7 @@ export default function Projects() {
                                 <p>Bootstrap</p>
                             </div>
                             <div className="github-icon">
-                                <img src={githubIcon} alt="github" />
+                                {/* <img src={githubIcon} alt="github" /> */}
                             </div>
                         </div>
                     </div>
