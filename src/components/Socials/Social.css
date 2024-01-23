@@ -11,6 +11,7 @@
 .social-wrapper{
     position: absolute;
     top: 34vh;
+    /* bottom: -4vh; */
     left: -1rem;
     
 }
@@ -38,7 +39,7 @@ a {
     color: blueviolet;
 }
 
-.line::after {
+.line::after{
     content: "";
     display: block;
     width: 1px;
@@ -46,9 +47,17 @@ a {
     margin: 0px auto;
     background-color: #aaa;
 }
-.email-wrapper{
-
+.line2::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100rem;
+    margin: 0px auto;
+    background-color: #aaa;
 }
+/* .email-wrapper{
+
+} */
 .email-link{
     font-family: "Roboto Mono", monospace;
     color: #aaa; 

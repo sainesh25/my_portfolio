@@ -18,7 +18,7 @@ export default function Social() {
                     <a href='https://www.instagram.com/saineshpatil2505/' target='_blank' className='social-btn' rel="noreferrer noopener"><img src={instagramIcon} alt="instagram"/></a>
                     <a href='https://twitter.com/SaineshPatil25' target='_blank' className='social-btn' rel="noreferrer noopener"><img src={twitterIcon} alt="twitter"/></a>
 
-                    <div className="line"></div>
+                    <div className="line2"></div>
                 </div>
             </div>
 
