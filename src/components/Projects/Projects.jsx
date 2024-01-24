@@ -218,7 +218,7 @@ export default function Projects() {
                         </a>
                     </div>
 
-                    <div className="project-card">
+                    {/* <div className="project-card">
                         <a href="http://water-boat-static.netlify.app/" target="_blank" rel="noreferrer noopener">
                             <div className='project-icons'>
                                 <img src={folderIcon} alt="" />
@@ -235,7 +235,7 @@ export default function Projects() {
                                 <p>CSS3</p>
                             </div>
                         </a>
-                    </div>
+                    </div> */}
                     <div className="project-card">
                         <a href="http://water-boat-static.netlify.app/" target="_blank" rel="noreferrer noopener">
                             <div className='project-icons'>
