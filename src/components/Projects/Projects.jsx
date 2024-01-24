@@ -47,6 +47,19 @@ export default function Projects() {
 
                     <div className="sms">
                         <p className='featured-project-txt'>Featured Project</p>
+                        <h2 className='sms-head'>Portfolio</h2>
+                        <div className="project-info">
+                            <p>The Weather App is a responsive and user-friendly application developed with React.js. It provides real-time weather information for any city, offering a seamless user experience.</p>
+                            <div className="languages">
+                                <p>ReactJs</p>
+                            </div>
+                            <div className="github-icon">
+                                <a href=" https://github.com/sainesh25/my_portfolio" target="_blank" rel="noreferrer noopener"><img src={githubIcon} alt="github" className='icons' /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="sms">
+                        <p className='featured-project-txt'>Featured Project</p>
                         <h2 className='sms-head'>Weather Application</h2>
                         <div className="project-info">
                             <p>The Weather App is a responsive and user-friendly application developed with React.js. It provides real-time weather information for any city, offering a seamless user experience.</p>

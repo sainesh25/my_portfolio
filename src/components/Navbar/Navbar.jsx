@@ -44,7 +44,7 @@ export default function Navbar() {
                         duration={500}
                         delay={0}
                         className='nav-links'>Projects</Link>
-                     <a href={require('./SaineshPatil_resume.pdf')} target="_blank" rel="noopener noreferrer" className='nav-links'>Resume</a> 
+                     <a href={require('./Sainesh Patil Resume.pdf')} target="_blank" rel="noopener noreferrer" className='nav-links'>Resume</a> 
                     <Link activeClass="active"
                         to="skillId"
                         smooth={true}

@@ -25,7 +25,7 @@ a{
     background-color: rgb(39, 39, 39);
     width: 35%;
     padding: 1.5rem 2rem;
-    margin: 1rem;
+    margin: .7rem;
     border: 1px solid #aaa;
     border-radius: 8px;
     transition: all .3s ease-in-out;
@@ -68,7 +68,7 @@ a{
     color: #aaa;
     padding: 2rem;
     width: 15rem;
-    margin: .8rem;
+    margin: .5rem;
     border-radius: 5px;
     border: 1px solid #aaaaaa81;
     transition: all .3s ease-in-out;
