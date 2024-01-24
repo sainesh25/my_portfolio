@@ -73,7 +73,7 @@
         padding-right: 0;
     }
     .my-info{
-        padding: 2.5rem;
+        padding: 2rem 0;
     }
     .intro-sentence, .my-intro-txt{
         font-size: .8rem;
@@ -83,7 +83,5 @@
     .tagline{
         line-height: 2.4rem;
     }
-    .my-info{
-        padding: 2rem 0;
-    }
+    
 }

@@ -17,7 +17,7 @@ export default function Projects() {
                         <p className='featured-project-txt'>Featured Project</p>
                         <h2 className='sms-head'>School Management System</h2>
                         <div className="project-info">
-                            <p>This is a MERN stack project. Mostly it is a web application for admin to manage the data of teachers by doing all the CRUD operations. Also admin needs to be logged in to do all the operations.</p>
+                            <p>This is a web application that allows the admin to manage the data of teachers by doing all the CRUD operations. The data is displayed in table format. And the data is taken through a form.</p>
                             <div className="languages">
                                 <p>ReactJs</p>
                                 <p>NodeJs</p>
@@ -46,18 +46,21 @@ export default function Projects() {
                     </div>
 
                     <div className="sms">
-                        <p className='featured-project-txt'>Featured Project</p>
-                        <h2 className='sms-head'>Portfolio</h2>
-                        <div className="project-info">
-                            <p>The Weather App is a responsive and user-friendly application developed with React.js. It provides real-time weather information for any city, offering a seamless user experience.</p>
-                            <div className="languages">
-                                <p>ReactJs</p>
+                        <a href="https://github.com/sainesh25/my_portfolio" target="_blank" rel="noopener noreferrer">
+                            <p className='featured-project-txt'>Featured Project</p>
+                            <h2 className='sms-head'>Portfolio</h2>
+                            <div className="project-info">
+                                <p>Showcasing a diverse range of innovative projects, this React-based portfolio demonstrates my skills in web development, problem-solving, and creative design. Explore my journey and the impactful solutions I've developed.</p>
+                                <div className="languages">
+                                    <p>ReactJs</p>
+                                </div>
+                                <div className="github-icon">
+                                    <a href="https://github.com/sainesh25/my_portfolio" target="_blank" rel="noreferrer noopener"><img src={githubIcon} alt="github" className='icons' /></a>
+                                </div>
                             </div>
-                            <div className="github-icon">
-                                <a href=" https://github.com/sainesh25/my_portfolio" target="_blank" rel="noreferrer noopener"><img src={githubIcon} alt="github" className='icons' /></a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
+
                     <div className="sms">
                         <p className='featured-project-txt'>Featured Project</p>
                         <h2 className='sms-head'>Weather Application</h2>
@@ -215,6 +218,24 @@ export default function Projects() {
                         </a>
                     </div>
 
+                    <div className="project-card">
+                        <a href="http://water-boat-static.netlify.app/" target="_blank" rel="noreferrer noopener">
+                            <div className='project-icons'>
+                                <img src={folderIcon} alt="" />
+
+                                <div className="github-icon">
+                                    <a href="" target="_blank" className='icons' rel="noreferrer noopener"><img src={githubIcon} alt="github" /></a>
+                                    <a href="" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
+                                </div>
+                            </div>
+                            <h3 className='sub-project-head sms-head'>Pricing Plans</h3>
+                            <p className='project-summary-txt'>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
+                            <div className="languages">
+                                <p>HTML5</p>
+                                <p>CSS3</p>
+                            </div>
+                        </a>
+                    </div>
                     <div className="project-card">
                         <a href="http://water-boat-static.netlify.app/" target="_blank" rel="noreferrer noopener">
                             <div className='project-icons'>
