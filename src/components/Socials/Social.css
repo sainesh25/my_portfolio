@@ -86,7 +86,7 @@ a {
 
 }
 @media (max-width: 767px){
-    .line, .email-wrapper{
+    .line, .email-wrapper, .line2{
         display: none;
     }
     .social-icons{
