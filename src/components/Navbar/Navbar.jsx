@@ -51,12 +51,12 @@ export default function Navbar() {
                         duration={500}
                         delay={0}
                         className='nav-links'>Projects</Link>
-                     <a href={require('./Sainesh Patil Resume.pdf')} target="_blank" rel="noopener noreferrer" className='nav-links'>Resume</a> 
                     <Link to='contactId' className='nav-links'
                         smooth={true}
                         offset={50}
                         duration={500}
                         delay={0}>Contact</Link>
+                     <a href={require('./Sainesh Patil Resume.pdf')} target="_blank" rel="noopener noreferrer" className='nav-links'>Resume</a> 
                 </div>
                 <div className="social-icons">
 
