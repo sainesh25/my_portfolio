@@ -38,6 +38,13 @@ export default function Navbar() {
                         delay={0}
                         className='nav-links'>Home</Link>
                     <Link activeClass="active"
+                        to="skillId"
+                        smooth={true}
+                        offset={-25}
+                        duration={500}
+                        delay={0}
+                        className='nav-links'>Skills</Link>
+                    <Link activeClass="active"
                         to="projectId"
                         smooth={true}
                         offset={0}
@@ -45,13 +52,6 @@ export default function Navbar() {
                         delay={0}
                         className='nav-links'>Projects</Link>
                      <a href={require('./Sainesh Patil Resume.pdf')} target="_blank" rel="noopener noreferrer" className='nav-links'>Resume</a> 
-                    <Link activeClass="active"
-                        to="skillId"
-                        smooth={true}
-                        offset={-25}
-                        duration={500}
-                        delay={0}
-                        className='nav-links'>Skills</Link>
                     <Link to='contactId' className='nav-links'
                         smooth={true}
                         offset={50}
