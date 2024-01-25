@@ -26,10 +26,10 @@ export default function Projects() {
                                 <p>Bootstrap</p>
                             </div>
                             <div className="github-icon">
-                                {/* <img src={githubIcon} alt="github" className='icons'/> */}
+                                <a href="https://github.com/sainesh25/School_Management_System.git" target="_blank" rel="noopener noreferrer" ><img src={githubIcon} alt="github" className='icons' /></a>
                             </div>
                         </div>
-                    </div>
+                    </div>  
 
                     <div className="sms">
                         <p className='featured-project-txt'>Featured Project</p>
@@ -68,7 +68,7 @@ export default function Projects() {
                             <p>The Weather App is a responsive and user-friendly application developed with React.js. It provides real-time weather information for any city, offering a seamless user experience.</p>
                             <div className="languages">
                                 <p>ReactJs</p>
-                                <p>OpenWeather_API</p>
+                                <p>OpenWeatherMap_API</p>
                             </div>
                             <div className="github-icon">
                                 <a href=" https://github.com/sainesh25/weather_app" target="_blank" rel="noreferrer noopener"><img src={githubIcon} alt="github" className='icons' /></a>
