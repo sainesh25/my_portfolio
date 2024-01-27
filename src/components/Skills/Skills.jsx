@@ -15,6 +15,7 @@ export default function Skills() {
                     <div className="skills-card">ReactJs</div>
                     <div className="skills-card">Bootstrap</div>
                     <div className="skills-card">jQuery</div>
+                    <div className="skills-card">Tailwind CSS</div>
                 </div>
                     <h2 className='backend-head'>Backend Technologies</h2>
                 <div className="backend-skills">

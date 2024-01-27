@@ -38,6 +38,7 @@ export default function Projects() {
                             <p>The React-based web app enables users to track income and expenses, offering a simple interface for inputting financial transactions. It dynamically calculates and displays total income, expenses, and savings, providing users with a quick and efficient way to manage their finances.</p>
                             <div className="languages">
                                 <p>ReactJs</p>
+                                <p>Tailwind CSS</p>
                             </div>
                             <div className="github-icon">
                                 <a href="https://github.com/sainesh25/savings_calculator.git" target="_blank" rel="noopener noreferrer" ><img src={githubIcon} alt="github" className='icons' /></a>
