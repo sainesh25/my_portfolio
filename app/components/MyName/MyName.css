@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,00;1,600&display=swap');
+
+.my-name-heading{
+    /* color: linear-gradient(to right, #8e2de2, #4a00e0); */
+    color: #cacaca;
+    font-size: 4.5rem;
+    margin: 0rem;
+}
+.intro-sentence{
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 4rem;
+    /* color: greenyellow; */
+    font-family: "Roboto Mono", monospace;
+    background: linear-gradient(80deg,#8e2de2 0%, #b38aff 50%);
+    background-clip: text;
+    color: transparent;
+}
+.my-info{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tagline{
+    font-size: 2.8rem;
+    padding-right: 6rem;
+    color: #808080;
+    line-height: 4.2rem;
+}
+.my-intro-txt{
+    width: 40rem;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+.important-txt{
+    color: #8e2de2;
+    font-family: "Roboto Mono", monospace;
+
+}
+@media (max-width: 1200px){
+    
+}
+@media (max-width: 992px){
+    .my-name-heading{
+        font-size: 3.5rem;
+    }
+    .tagline{
+        font-size: 2rem;
+        padding-right: 5rem;
+        line-height: 3rem;
+    }
+    .my-intro-txt{
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .tagline{
+        padding-right: 3rem;
+    }
+    .my-info{
+        padding: 3.5rem;
+    }
+}
+@media (max-width: 576px){
+    .my-name-heading{
+        font-size: 2.5rem;
+    }
+    .tagline{
+        font-size: 1.5rem;
+        padding-right: 5rem;
+        line-height: 2.8rem;
+        padding-right: 0;
+    }
+    .my-info{
+        padding: 2rem 0;
+    }
+    .intro-sentence, .my-intro-txt{
+        font-size: .8rem;
+    }
+}
+@media (max-width: 400px ){
+    .tagline{
+        line-height: 2.4rem;
+    }
+    
+}
