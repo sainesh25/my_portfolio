@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-
 export default function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -38,7 +37,7 @@ export default function Navbar() {
         <Link href="#contactId" className="text-[#cacaca] font-semibold text-lg mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#b463fc] hover:to-[#7e3fff] transition duration-300">
           Contact
         </Link>
-        <Link href="#" className="text-[#cacaca] font-semibold text-lg mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
+        <Link href={'/Sainesh_Patil_Resume.pdf'} target="_blank" className="text-[#cacaca] font-semibold text-lg mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
           Resume
         </Link>
         
