@@ -3,6 +3,7 @@ import MyName from '../MyName/MyName'
 import Navbar from '../Navbar/Navbar'
 import Contact from '../Contact/Contact'
 import Footer from '../Footer/Footer'
+import Social from '../Socials/Social'
 
 export default function HomePage() {
 
@@ -14,6 +15,7 @@ export default function HomePage() {
                 <div className="max-w-7xl">
                     <MyName />
                     <Contact />
+                    <Social/>
                 </div>
             </div>
             <Footer/>

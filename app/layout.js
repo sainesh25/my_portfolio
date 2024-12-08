@@ -15,6 +15,11 @@ const geistMono = localFont({
 export const metadata = {
   title: "Sainesh Patil",
   description: "Sainesh Patil Portfolio",
+  openGraph:{
+    title: 'Sainesh Patil',
+    description: 'Sainesh Patil | Full-Stack Developer specializing in MERN stack. Crafting seamless, responsive web solutions from front-end to back-end.',
+    keywords: 'Sainesh, Patil, Sainesh Patil, Full-Stack Developer, MERN Stack Developer, Frontend Development, Backend Development, Responsive Web Solutions, Web Developer Portfolio, React.js Developer, Node.js Developer, Next.js Developer, SEO, Tailwind CSS, JavaScript Expert, Modern Web Design, Scalable Web Applications, Full-Stack Solutions, Innovative Web Development'
+  }
 };
 
 export default function RootLayout({ children }) {
