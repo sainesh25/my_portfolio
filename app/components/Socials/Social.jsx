@@ -52,7 +52,7 @@ export default function Social() {
             <div className="hidden fixed sm:flex flex-col items-center right-[-4rem] bottom-[-4vh]">
                 <Link
                     href="mailto:patilsainesh25@gmail.com"
-                    className="font-mono relative text-gray-400 transform top-[-87px] rotate-90 transition-transform hover:-translate-y-2 hover:text-purple-600"
+                    className="font-mono relative text-[#cacaca] transform top-[-87px] rotate-90 transition-transform hover:-translate-y-2 hover:text-purple-600"
                 >
                     patilsainesh25@gmail.com
                 </Link>
