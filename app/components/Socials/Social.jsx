@@ -52,46 +52,46 @@ export default function Social() {
             <div className="hidden fixed sm:flex flex-col items-center right-[-4rem] bottom-[-4vh]">
                 <Link
                     href="mailto:patilsainesh25@gmail.com"
-                    className="font-mono text-gray-400 transform top-[-100px] rotate-90 transition-transform hover:-translate-y-2 hover:text-purple-600"
+                    className="font-mono relative text-gray-400 transform top-[-87px] rotate-90 transition-transform hover:-translate-y-2 hover:text-purple-600"
                 >
                     patilsainesh25@gmail.com
                 </Link>
-                <div className="w-px h-[40vh] bg-gray-400 mt-4"></div>
+                <div className="w-px h-[36vh] bg-gray-400 mt-4"></div>
             </div>
 
             {/* Social icons for mobile */}
-            <div className="fixed bottom-0 left-0 w-full flex justify-evenly bg-gray-900 sm:hidden">
+            <div className="bottom-0 left-0 w-full flex justify-evenly sm:hidden">
                 <Link
                     href="https://www.linkedin.com/in/sainesh-patil/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="transition-transform transform hover:scale-110 hover:text-purple-600"
+                    className="transition-transform text-[#aaa] transform hover:scale-110 hover:text-purple-600"
                 >
-                    <Image src={'/linkedin-svgrepo-com.svg'} alt="LinkedIn" width={30} height={30} />
+                    <SlSocialLinkedin alt="LinkedIn" size={21} />
                 </Link>
                 <Link
                     href="https://github.com/sainesh25"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="transition-transform transform hover:scale-110 hover:text-purple-600"
+                    className="transition-transform text-[#aaa] transform hover:scale-110 hover:text-purple-600"
                 >
-                    <FiGithub alt="GitHub" width={30} height={30} />
+                    <FiGithub alt="GitHub" size={21} />
                 </Link>
                 <Link
                     href="https://www.instagram.com/saineshpatil2505/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="transition-transform transform hover:scale-110 hover:text-purple-600"
+                    className="transition-transform text-[#aaa] transform hover:scale-110 hover:text-purple-600"
                 >
-                    <Image src={'/instagram-svgrepo-com.svg'} alt="Instagram" width={30} height={30} />
+                    <FaInstagram alt="Instagram" size={21} />
                 </Link>
                 <Link
                     href="https://twitter.com/SaineshPatil25"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="transition-transform transform hover:scale-110 hover:text-purple-600"
+                    className="transition-transform text-[#aaa] transform hover:scale-110 hover:text-purple-600"
                 >
-                    <FaXTwitter alt="Twitter" width={30} height={30} />
+                    <FaXTwitter alt="Twitter" size={21} />
                 </Link>
             </div>
         </>
