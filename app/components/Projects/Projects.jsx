@@ -1,264 +1,162 @@
+'use client'
+
 import React from 'react';
-import "./Projects.css";
-import githubIcon from './github-svgrepo-com.svg';
-import goToPage from './external-link-svgrepo-com.svg';
-import folderIcon from './folder-svgrepo-com.svg';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FaExternalLinkAlt } from 'react-icons/fa';
+import { LuExternalLink } from "react-icons/lu";
+import { CiFolderOn } from "react-icons/ci";
+import { FiGithub } from "react-icons/fi";
 
 export default function Projects() {
-
-
     return (
-        <>
-            <div className='project-section ' id='projectId'>
-                <h1 className='skills-head'>Some things I have built...</h1>
-                <h2 className='other-project-head featured-project-head-main'>Featured Projects</h2>
-                <div className="projects">
-                    <div className="sms">
-                        <p className='featured-project-txt'>Featured Project</p>
-                        <h2 className='sms-head'>School Management System</h2>
-                        <div className="project-info">
-                            <p>This is a web application that allows the admin to manage the data of teachers by doing all the CRUD operations. The data is displayed in table format. And the data is taken through a form.</p>
-                            <div className="languages">
-                                <p>ReactJs</p>
-                                <p>NodeJs</p>
-                                <p>ExpressJs</p>
-                                <p>MongoDB</p>
-                                <p>Bootstrap</p>
-                            </div>
-                            <div className="github-icon">
-                                <a href="https://github.com/sainesh25/School_Management_System.git" target="_blank" rel="noopener noreferrer" ><img src={githubIcon} alt="github" className='icons' /></a>
-                            </div>
-                        </div>
-                    </div>  
-
-                    <div className="sms">
-                        <p className='featured-project-txt'>Featured Project</p>
-                        <h2 className='sms-head'>Savings Calculator</h2>
-                        <div className="project-info">
-                            <p>The React-based web app enables users to track income and expenses, offering a simple interface for inputting financial transactions. It dynamically calculates and displays total income, expenses, and savings, providing users with a quick and efficient way to manage their finances.</p>
-                            <div className="languages">
-                                <p>ReactJs</p>
-                                <p>Tailwind CSS</p>
-                            </div>
-                            <div className="github-icon">
-                                <a href="https://github.com/sainesh25/savings_calculator.git" target="_blank" rel="noopener noreferrer" ><img src={githubIcon} alt="github" className='icons' /></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="sms">
-                        <a href="https://github.com/sainesh25/my_portfolio" target="_blank" rel="noopener noreferrer">
-                            <p className='featured-project-txt'>Featured Project</p>
-                            <h2 className='sms-head'>Portfolio</h2>
-                            <div className="project-info">
-                                <p>Showcasing a diverse range of innovative projects, this React-based portfolio demonstrates my skills in web development, problem-solving, and creative design. Explore my journey and the impactful solutions I've developed.</p>
-                                <div className="languages">
-                                    <p>ReactJs</p>
-                                </div>
-                                <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/my_portfolio" target="_blank" rel="noreferrer noopener"><img src={githubIcon} alt="github" className='icons' /></a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className="sms">
-                        <p className='featured-project-txt'>Featured Project</p>
-                        <h2 className='sms-head'>Weather Application</h2>
-                        <div className="project-info">
-                            <p>The Weather App is a responsive and user-friendly application developed with React.js. It provides real-time weather information for any city, offering a seamless user experience.</p>
-                            <div className="languages">
-                                <p>ReactJs</p>
-                                <p>OpenWeatherMap_API</p>
-                            </div>
-                            <div className="github-icon">
-                                <a href=" https://github.com/sainesh25/weather_app" target="_blank" rel="noreferrer noopener"><img src={githubIcon} alt="github" className='icons' /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h2 className='other-project-head'>Other Noteworthy projects</h2>
-                <div className="other-projects">
-                    <div className="project-card">
-                        <a href="https://quote-generator-by-saineshp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            <div className='project-icons'>
-                                <img src={folderIcon} alt="" />
-
-                                <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/quote-generator.git" target="_blank" className='icons' rel="noreferrer noopener"><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://quote-generator-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
-                                </div>
-                            </div>
-                            <h3 className='sub-project-head sms-head'>Quote Generator</h3>
-                            <p className='project-summary-txt'>Designed a brief quote generator with copy-to-clipboard functionality. Users can easily generate and share quotes on Twitter, enhancing accessibility and user experience.</p>
-                            <div className="languages">
-                                <p>HTML5</p>
-                                <p>CSS3</p>
-                                <p>JavaScript</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className="project-card">
-                        <a href="https://tip-calculator-by-saineshp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            <div className='project-icons'>
-                                <img src={folderIcon} alt="" />
-
-                                <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/tip_calculator.git" rel="noreferrer noopener" target="_blank" className='icons'><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://tip-calculator-by-saineshp.netlify.app/" rel="noreferrer noopener" target="_blank"><img src={goToPage} alt="Go to page" className='icons' /></a>
-                                </div>
-                            </div>
-                            <h3 className='sub-project-head sms-head'>Tip Calculator</h3>
-                            <p className='project-summary-txt'>Developed interactive features for a web-based tip calculator, including dynamic adjustments for tip and GST percentages, real-time calculations, and a split bill feature.</p>
-                            <div className="languages">
-                                <p>HTML5</p>
-                                <p>CSS3</p>
-                                <p>JavaScript</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className="project-card">
-                        <a href="https://to-do-list-by-saineshp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            <div className='project-icons'>
-                                <img src={folderIcon} alt="" />
-
-                                <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/to-do-list.git" target="_blank" rel="noreferrer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://to-do-list-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
-                                </div>
-
-                            </div>
-                            <h3 className='sub-project-head sms-head'>To Do List</h3>
-                            <p className='project-summary-txt'>Created a streamlined to-do list feature with an intuitive interface. Users can add, delete, and mark tasks as done, enhancing task management and user experience.</p>
-                            <div className="languages">
-                                <p>HTML5</p>
-                                <p>CSS3</p>
-                                <p>JavaScript</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className="project-card">
-                        <a href="https://aadhar-form-registration-by-saineshp.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            <div className='project-icons'>
-                                <img src={folderIcon} alt="" />
-
-                                <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/aadhar-card-form-registration.git" target="_blank" rel="noreferrer noopener" className='icons'><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://aadhar-form-registration-by-saineshp.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
-                                </div>
-
-                            </div>
-                            <h3 className='sub-project-head sms-head'>Aadhar Card Registration Form</h3>
-                            <p className='project-summary-txt'>The JavaScript code validates Aadhar form inputs, displaying custom error messages. It ensures data accuracy and requires agreement to terms for successful submission.</p>
-                            <div className="languages">
-                                <p>HTML5</p>
-                                <p>CSS3</p>
-                                <p>JavaScript</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className="project-card">
-                        <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="noreferrer noopener">
-                            <div className='project-icons'>
-                                <img src={folderIcon} alt="" />
-
-                                <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/olla-agency-homepage-static.git" target="_blank" className='icons' rel="noreferrer noopener"><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://olla-agency-static.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
-                                </div>
-                            </div>
-                            <h3 className='sub-project-head sms-head'>Olla-agency Home page</h3>
-                            <p className='project-summary-txt'>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
-                            <div className="languages">
-                                <p>HTML5</p>
-                                <p>CSS3</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className="project-card">
-                        <a href="https://rolax-resort-static.netlify.app/" target="_blank" rel="noreferrer noopener">
-                            <div className='project-icons'>
-                                <img src={folderIcon} alt="" />
-
-                                <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/rolaxResort-homepage.git" target="_blank" className='icons' rel="noreferrer noopener"><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://rolax-resort-static.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
-                                </div>
-                            </div>
-                            <h3 className='sub-project-head sms-head'>Rolax Resort Home page</h3>
-                            <p className='project-summary-txt'>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
-                            <div className="languages">
-                                <p>HTML5</p>
-                                <p>CSS3</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className="project-card">
-                        <a href="https://landscaper-static.netlify.app/" target="_blank" rel="noreferrer noopener">
-                            <div className='project-icons'>
-                                <img src={folderIcon} alt="" />
-
-                                <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/landscaper-static-page.git" target="_blank" className='icons' rel="noreferrer noopener"><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://landscaper-static.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
-                                </div>
-                            </div>
-                            <h3 className='sub-project-head sms-head'>Landscaper Home page</h3>
-                            <p className='project-summary-txt'>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
-                            <div className="languages">
-                                <p>HTML5</p>
-                                <p>CSS3</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    {/* <div className="project-card">
-                        <a href="http://water-boat-static.netlify.app/" target="_blank" rel="noreferrer noopener">
-                            <div className='project-icons'>
-                                <img src={folderIcon} alt="" />
-
-                                <div className="github-icon">
-                                    <a href="" target="_blank" className='icons' rel="noreferrer noopener"><img src={githubIcon} alt="github" /></a>
-                                    <a href="" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
-                                </div>
-                            </div>
-                            <h3 className='sub-project-head sms-head'>Pricing Plans</h3>
-                            <p className='project-summary-txt'>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
-                            <div className="languages">
-                                <p>HTML5</p>
-                                <p>CSS3</p>
-                            </div>
-                        </a>
-                    </div> */}
-                    <div className="project-card">
-                        <a href="http://water-boat-static.netlify.app/" target="_blank" rel="noreferrer noopener">
-                            <div className='project-icons'>
-                                <img src={folderIcon} alt="" />
-
-                                <div className="github-icon">
-                                    <a href="https://github.com/sainesh25/water-boat-static.git" target="_blank" className='icons' rel="noreferrer noopener"><img src={githubIcon} alt="github" /></a>
-                                    <a href="https://water-boat-static.netlify.app/" target="_blank" rel="noreferrer noopener"><img src={goToPage} alt="Go to page" className='icons' /></a>
-                                </div>
-                            </div>
-                            <h3 className='sub-project-head sms-head'>Water Boat Home page</h3>
-                            <p className='project-summary-txt'>This is a static responsive web page created using HTML5 tags and CSS3 properties.</p>
-                            <div className="languages">
-                                <p>HTML5</p>
-                                <p>CSS3</p>
-                            </div>
-                        </a>
-                    </div>
-
-
-                </div>
+        <div className='py-16 px-4 sm:mx-20 mx-4 sm:px-6 lg:px-8 my-8' id='projectId'>
+            <h1 className='text-3xl font-bold mb-8 text-center'>Some things I have built...</h1>
+            <h2 className='text-2xl font-semibold mb-6 text-center text-[#aaa]'>Featured Projects</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                {featuredProjects.map((project, index) => (
+                    <FeaturedProjectCard key={index} {...project} />
+                ))}
             </div>
-        </>
+
+            <h2 className='text-2xl font-semibold mt-12 mb-6 text-center text-[#aaa]'>Other Noteworthy Projects</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {otherProjects.map((project, index) => (
+                    <ProjectCard key={index} {...project} />
+                ))}
+            </div>
+        </div>
     )
 }
+
+const FeaturedProjectCard = ({ title, description, technologies, githubLink }) => (
+    <div className="bg-[#272727] w- text-[#c5c5c5] p-6 rounded-lg border border-[#aaaaaa81] transition-all flex-grow duration-300 ease-in-out hover:transform hover:-translate-y-2 hover:shadow-[1px_1px_30px_#aaaaaa46]">
+        <p className='text-[#ac54ff] font-mono text-sm mb-2'>Featured Project</p>
+        <h2 className='text-xl font-bold mb-4'>{title}</h2>
+        <div className="project-info">
+            <p className='text-sm mb-4'>{description}</p>
+            <div className="flex flex-wrap justify-end mb-4">
+                {technologies.map((tech, index) => (
+                    <p key={index} className='text-xs font-mono mr-2 mb-2'>{tech}</p>
+                ))}
+            </div>
+            <div className="flex justify-end">
+                <Link href={githubLink} target="_blank" rel="noopener noreferrer" className="transition-all duration-300 ease-in-out hover:text-[#ac54ff]">
+                    <FiGithub
+                        className="w-5 h-5" />
+                </Link>
+            </div>
+        </div>
+    </div>
+)
+
+const ProjectCard = ({ title, description, technologies, githubLink, liveLink }) => (
+    <div className="bg-[#272727] text-[#c5c5c5] p-6 rounded-lg border border-[#aaaaaa81] transition-all flex-grow duration-300 ease-in-out hover:transform hover:-translate-y-2 hover:shadow-[1px_1px_30px_#aaaaaa46]">
+        <div className='flex justify-between items-center mb-4'>
+            <CiFolderOn className="w-12 h-12 text-[#ac54ff]" />
+            <div className="flex space-x-4 items-center">
+                <Link href={githubLink} target="_blank" rel="noopener noreferrer" className="transition-all duration-300 ease-in-out hover:text-[#ac54ff]">
+                    <FiGithub
+                        className="w-5 h-5" />
+                </Link>
+                <Link href={liveLink} target="_blank" rel="noopener noreferrer" className="transition-all duration-300 ease-in-out hover:text-[#ac54ff]">
+                    <LuExternalLink className="w-6 h-6" />
+                </Link>
+            </div>
+        </div>
+        <h3 className='text-lg font-semibold mb-2'>{title}</h3>
+        <p className='text-sm mb-4'>{description}</p>
+        <div className="flex flex-wrap">
+            {technologies.map((tech, index) => (
+                <p key={index} className='text-xs font-mono mr-2 mb-2'>{tech}</p>
+            ))}
+        </div>
+    </div>
+)
+
+const featuredProjects = [
+    {
+        title: "School Management System",
+        description: "This is a web application that allows the admin to manage the data of teachers by doing all the CRUD operations. The data is displayed in table format. And the data is taken through a form.",
+        technologies: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB", "Bootstrap"],
+        githubLink: "https://github.com/sainesh25/School_Management_System.git"
+    },
+    {
+        title: "Savings Calculator",
+        description: "The React-based web app enables users to track income and expenses, offering a simple interface for inputting financial transactions. It dynamically calculates and displays total income, expenses, and savings, providing users with a quick and efficient way to manage their finances.",
+        technologies: ["ReactJs", "Tailwind CSS"],
+        githubLink: "https://github.com/sainesh25/savings_calculator.git"
+    },
+    {
+        title: "Portfolio",
+        description: "Showcasing a diverse range of innovative projects, this React-based portfolio demonstrates my skills in web development, problem-solving, and creative design. Explore my journey and the impactful solutions I've developed.",
+        technologies: ["Next.js", "Tailwind CSS"],
+        githubLink: "https://github.com/sainesh25/my_portfolio"
+    },
+    {
+        title: "Weather Application",
+        description: "The Weather App is a responsive and user-friendly application developed with React.js. It provides real-time weather information for any city, offering a seamless user experience.",
+        technologies: ["ReactJs", "OpenWeatherMap_API"],
+        githubLink: "https://github.com/sainesh25/weather_app"
+    }
+];
+
+const otherProjects = [
+    {
+        title: "Quote Generator",
+        description: "Designed a brief quote generator with copy-to-clipboard functionality. Users can easily generate and share quotes on Twitter, enhancing accessibility and user experience.",
+        technologies: ["HTML5", "CSS3", "JavaScript"],
+        githubLink: "https://github.com/sainesh25/quote-generator.git",
+        liveLink: "https://quote-generator-by-saineshp.netlify.app/"
+    },
+    {
+        title: "Tip Calculator",
+        description: "Developed interactive features for a web-based tip calculator, including dynamic adjustments for tip and GST percentages, real-time calculations, and a split bill feature.",
+        technologies: ["HTML5", "CSS3", "JavaScript"],
+        githubLink: "https://github.com/sainesh25/tip_calculator.git",
+        liveLink: "https://tip-calculator-by-saineshp.netlify.app/"
+    },
+    {
+        title: "To Do List",
+        description: "Created a streamlined to-do list feature with an intuitive interface. Users can add, delete, and mark tasks as done, enhancing task management and user experience.",
+        technologies: ["HTML5", "CSS3", "JavaScript"],
+        githubLink: "https://github.com/sainesh25/to-do-list.git",
+        liveLink: "https://to-do-list-by-saineshp.netlify.app/"
+    },
+    {
+        title: "Aadhar Card Registration Form",
+        description: "The JavaScript code validates Aadhar form inputs, displaying custom error messages. It ensures data accuracy and requires agreement to terms for successful submission.",
+        technologies: ["HTML5", "CSS3", "JavaScript"],
+        githubLink: "https://github.com/sainesh25/aadhar-card-form-registration.git",
+        liveLink: "https://aadhar-form-registration-by-saineshp.netlify.app/"
+    },
+    {
+        title: "Olla-agency Home page",
+        description: "This is a static responsive web page created using HTML5 tags and CSS3 properties.",
+        technologies: ["HTML5", "CSS3"],
+        githubLink: "https://github.com/sainesh25/olla-agency-homepage-static.git",
+        liveLink: "https://olla-agency-static.netlify.app/"
+    },
+    {
+        title: "Rolax Resort Home page",
+        description: "This is a static responsive web page created using HTML5 tags and CSS3 properties.",
+        technologies: ["HTML5", "CSS3"],
+        githubLink: "https://github.com/sainesh25/rolaxResort-homepage.git",
+        liveLink: "https://rolax-resort-static.netlify.app/"
+    },
+    {
+        title: "Landscaper Home page",
+        description: "This is a static responsive web page created using HTML5 tags and CSS3 properties.",
+        technologies: ["HTML5", "CSS3"],
+        githubLink: "https://github.com/sainesh25/landscaper-static-page.git",
+        liveLink: "https://landscaper-static.netlify.app/"
+    },
+    {
+        title: "Water Boat Home page",
+        description: "This is a static responsive web page created using HTML5 tags and CSS3 properties.",
+        technologies: ["HTML5", "CSS3"],
+        githubLink: "https://github.com/sainesh25/water-boat-static.git",
+        liveLink: "https://water-boat-static.netlify.app/"
+    }
+];
+

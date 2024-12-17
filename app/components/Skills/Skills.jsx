@@ -19,7 +19,7 @@ export default function Skills() {
       </h1>
       
       <div className="text-center">
-        <h2 className={`${robotoMono.className} text-lg font-bold md:text-xl text-[#cacaca] mb-4`}>
+        <h2 className={`font-mono text-lg font-bold md:text-xl text-[#cacaca] mb-4`}>
           Frontend Technologies
         </h2>
         <div className="flex flex-wrap justify-center gap-2 md:gap-6 mb-8">
@@ -27,13 +27,12 @@ export default function Skills() {
             <div
               key={index}
               className={`
-                ${robotoMono.className}
+                font-mono
                 bg-gradient-to-r from-[#8e2de2] to-[#4a00e0]
                 text-white font-semibold
                 px-4 py-2 md:px-6 md:py-2
                 rounded-full text-sm md:text-base
                 shadow-[1px_1px_30px_#8e2de2]
-                
               `}
             >
               {item}
@@ -41,7 +40,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <h2 className={`${robotoMono.className} text-lg md:text-xl font-bold text-[#cacaca] mb-4`}>
+        <h2 className={`font-mono text-lg md:text-xl font-bold text-[#cacaca] mb-4`}>
           Backend Technologies
         </h2>
         <div className="flex flex-wrap justify-center gap-2 md:gap-6 mb-8">
@@ -49,7 +48,7 @@ export default function Skills() {
             <div
               key={index}
               className={`
-                ${robotoMono.className}
+                font-mono
                 bg-gradient-to-r from-[#8e2de2] to-[#4a00e0]
                 text-white font-semibold
                 px-4 py-2 md:px-6 md:py-2
@@ -64,28 +63,25 @@ export default function Skills() {
           ))}
         </div>
 
-        <h2 className={`${robotoMono.className} text-lg md:text-xl font-bold text-[#cacaca] mb-4`}>
+        <h2 className={`font-mono text-lg md:text-xl font-bold text-[#cacaca] mb-4`}>
           Database Technologies
         </h2>
         <div className="flex flex-wrap justify-center gap-2 md:gap-6 mb-8">
           <div
             className={`
-              ${robotoMono.className}
+              font-mono
               bg-gradient-to-r from-[#8e2de2] to-[#4a00e0]
               text-white font-semibold
               px-4 py-2 md:px-6 md:py-2
               rounded-full text-sm md:text-base
               shadow-[1px_1px_30px_#8e2de2]
-              
-              hover:-translate-y-1 hover:shadow-[#c684ff]/50
-              hover:border-b-2 hover:border-[#c684ff]
             `}
           >
             MongoDB
           </div>
         </div>
 
-        <h2 className={`${robotoMono.className} text-lg md:text-xl font-bold text-[#cacaca] mb-4`}>
+        <h2 className={`font-mono text-lg md:text-xl font-bold text-[#cacaca] mb-4`}>
           Tools
         </h2>
         <div className="flex flex-wrap justify-center gap-2 md:gap-6">
@@ -93,7 +89,7 @@ export default function Skills() {
             <div
               key={index}
               className={`
-                ${robotoMono.className}
+                font-mono
                 bg-gradient-to-r from-[#8e2de2] to-[#4a00e0]
                 text-white font-semibold
                 px-4 py-2 md:px-6 md:py-2
