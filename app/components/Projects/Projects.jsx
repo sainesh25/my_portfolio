@@ -3,26 +3,50 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaExternalLinkAlt } from 'react-icons/fa';
 import { LuExternalLink } from "react-icons/lu";
 import { CiFolderOn } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
+import { motion } from 'framer-motion';
 
 export default function Projects() {
     return (
         <div className='py-16 px-4 sm:mx-20 mx-4 sm:px-6 lg:px-8 my-8' id='projectId'>
-            <h1 className='text-3xl font-bold mb-8 text-center'>Some things I have built...</h1>
+            <h1 className='text-3xl font-bold mb-8 text-center text-white'>Some things I have built...</h1>
             <h2 className='text-2xl font-semibold mb-6 text-center text-[#aaa]'>Featured Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                 {featuredProjects.map((project, index) => (
-                    <FeaturedProjectCard key={index} {...project} />
+                    <motion.div
+                        key={index}
+                        initial={{ scale: 0.5, opacity: 0 }}
+                        whileInView={{ scale: 1, opacity: 1 }}
+                        transition={{ duration: 0.6, delay: index * 0.2 }}
+                        viewport={{ once: true, amount: 0.5 }}
+                        className='flex'
+                    >
+
+                        <FeaturedProjectCard key={index} {...project} />
+                    </motion.div>
                 ))}
             </div>
 
             <h2 className='text-2xl font-semibold mt-12 mb-6 text-center text-[#aaa]'>Other Noteworthy Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {otherProjects.map((project, index) => (
-                    <ProjectCard key={index} {...project} />
+                    <motion.div
+                        key={index}
+                        initial={{ opacity: 0, y: 100 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        // animate={{}}
+                        transition={{
+                            duration: 1,
+                            delay: index * 0.1,
+                            ease: "easeInOut"
+                        }}
+                        viewport={{ once: true }}
+                        className='flex'
+                    >
+                        <ProjectCard key={index} {...project} />
+                    </motion.div>
                 ))}
             </div>
         </div>
