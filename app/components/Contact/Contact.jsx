@@ -7,7 +7,7 @@ export default function Contact() {
             <div className="flex justify-center font-sans items-center flex-col py-12 sm:mx-14 mx-9" id="contactId">
                 <p className="mb-4 text-2xl md:text-4xl font-bold text-[#cacaca] font-sans">Get In Touch</p>
                 <p className="mx-auto text-justify w-full sm:w-11/12 md:w-3/5 lg:w-[35rem] sm:text-lg text-base text-[#cacaca] leading-6 sm:leading-7 md:leading-8">
-                    Hello there! I'm eager to embark on exciting opportunities and contribute my passion for web development. Whether you have a project, job offer, or just want to connect, feel free to reach out. Let's collaborate and create something amazing together!
+                    Hello there! I&apos;m eager to embark on exciting opportunities and contribute my passion for web development. Whether you have a project, job offer, or just want to connect, feel free to reach out. Let&apos;s collaborate and create something amazing together!
                 </p>
                 <div className="">
                     <Link
