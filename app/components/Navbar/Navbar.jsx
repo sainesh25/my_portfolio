@@ -37,7 +37,7 @@ export default function Navbar() {
         <Link href="#contactId" className="sm:text-lg text-sm text-[#cacaca] font-semibold mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#b463fc] hover:to-[#7e3fff] transition duration-300">
           Contact
         </Link>
-        <Link href={'/Sainesh Patil-Web Developer.pdf'} target="_blank" className="sm:text-lg text-sm text-[#cacaca] font-semibold mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
+        <Link href={'/Sainesh Patil-Web Developer.pdf'} target="_blank" className=" sm:text-lg text-sm text-[#cacaca] font-semibold mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
           Resume
         </Link>
         
