@@ -24,20 +24,20 @@ export default function Navbar() {
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <div className="flex justify-center items-center py-4 px-8">
-        <Link href="#homeId" className="text-[#cacaca] font-semibold text-lg mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
+      <div className="flex justify-center items-center flex-wrap sm:py-4 py-2 sm:px-8 px-4">
+        <Link href="#homeId" className="sm:text-lg text-sm text-[#cacaca] font-semibold mx-4 sm:my-0 my-2 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
           Home
         </Link>
-        <Link href="#skillId" className="text-[#cacaca] font-semibold text-lg mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
+        <Link href="#skillId" className="sm:text-lg text-sm text-[#cacaca] font-semibold mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
           Skills
         </Link>
-        <Link href="#projectId" className="text-[#cacaca] font-semibold text-lg mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
+        <Link href="#projectId" className="sm:text-lg text-sm text-[#cacaca] font-semibold mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
           Projects
         </Link>
-        <Link href="#contactId" className="text-[#cacaca] font-semibold text-lg mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#b463fc] hover:to-[#7e3fff] transition duration-300">
+        <Link href="#contactId" className="sm:text-lg text-sm text-[#cacaca] font-semibold mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#b463fc] hover:to-[#7e3fff] transition duration-300">
           Contact
         </Link>
-        <Link href={'/Sainesh_Patil_Resume.pdf'} target="_blank" className="text-[#cacaca] font-semibold text-lg mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
+        <Link href={'/Sainesh Patil-Web Developer.pdf'} target="_blank" className="sm:text-lg text-sm text-[#cacaca] font-semibold mx-4 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#c179ff] hover:to-[#7e3fff] transition duration-300">
           Resume
         </Link>
         

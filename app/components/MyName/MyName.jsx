@@ -3,7 +3,7 @@ import React from 'react';
 export default function MyName() {
     return (
         <div className="">
-            <div className=" flex font-sans flex-col justify-center items-start mx-8 sm:px-12 md:px-20 py-20" id='homeId'>
+            <div className=" flex font-sans flex-col justify-center items-start mx-8 sm:px-12 md:px-20 sm:py-20 pt-24 pb-[4.5rem]" id='homeId'>
                 <p className="text-base sm:text-xl sm:mt-16 mt-8 font-mono  text-purple-600">
                     Hi, my name is
                 </p>

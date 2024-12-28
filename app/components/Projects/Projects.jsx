@@ -11,8 +11,8 @@ import { motion } from 'framer-motion';
 export default function Projects() {
     return (
         <div className='py-16 px-4 sm:mx-20 mx-4 sm:px-6 lg:px-8 my-8' id='projectId'>
-            <h1 className='text-3xl font-bold mb-8 text-center text-white'>Some things I have built...</h1>
-            <h2 className='text-2xl font-semibold mb-6 text-center text-[#aaa]'>Featured Projects</h2>
+            <h1 className='sm:text-3xl text-2xl font-bold mb-8 text-center text-white'>Some things I have built...</h1>
+            <h2 className='sm:text-2xl text-xl font-semibold mb-6 text-center text-[#aaa]'>Featured Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                 {featuredProjects.map((project, index) => (
                     <motion.div
@@ -23,7 +23,6 @@ export default function Projects() {
                         viewport={{ once: true, amount: 0.5 }}
                         className='flex'
                     >
-
                         <FeaturedProjectCard key={index} {...project} />
                     </motion.div>
                 ))}
