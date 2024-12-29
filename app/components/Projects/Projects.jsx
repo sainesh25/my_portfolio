@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 export default function Projects() {
     return (
         <div className='py-16 px-4 sm:mx-20 mx-4 sm:px-6 lg:px-8 my-8' id='projectId'>
-            <h1 className='sm:text-3xl text-2xl font-bold mb-8 text-center text-white'>Some things I have built...</h1>
+            <h2 className='sm:text-3xl text-2xl font-bold mb-8 text-center text-[#cacaca]'>Some things I have built...</h2>
             <h2 className='sm:text-2xl text-xl font-semibold mb-6 text-center text-[#aaa]'>Featured Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                 {featuredProjects.map((project, index) => (
@@ -52,7 +52,7 @@ export default function Projects() {
     )
 }
 
-const FeaturedProjectCard = ({ title, description, technologies, githubLink }) => (
+const FeaturedProjectCard = ({ title, description, technologies, githubLink, siteLink }) => (
     <div className="bg-[#272727] w- text-[#c5c5c5] p-6 rounded-lg border border-[#aaaaaa81] transition-all flex-grow duration-300 ease-in-out hover:transform hover:-translate-y-2 hover:shadow-[1px_1px_30px_#aaaaaa46]">
         <p className='text-[#ac54ff] font-mono text-sm mb-2'>Featured Project</p>
         <h2 className='text-xl font-bold mb-4'>{title}</h2>
@@ -63,11 +63,17 @@ const FeaturedProjectCard = ({ title, description, technologies, githubLink }) =
                     <p key={index} className='text-xs font-mono mr-2 mb-2'>{tech}</p>
                 ))}
             </div>
-            <div className="flex justify-end">
+            <div className="flex justify-end gap-6 items-center">
                 <Link href={githubLink} target="_blank" rel="noopener noreferrer" className="transition-all duration-300 ease-in-out hover:text-[#ac54ff]">
                     <FiGithub
                         className="w-5 h-5" />
                 </Link>
+                {
+                    siteLink.length > 0 &&
+                    <Link href={siteLink} target="_blank" rel="noopener noreferrer" className="transition-all duration-300 ease-in-out hover:text-[#ac54ff]">
+                        <LuExternalLink className="w-6 h-6" />
+                    </Link>
+                }
             </div>
         </div>
     </div>
@@ -102,25 +108,29 @@ const featuredProjects = [
         title: "School Management System",
         description: "This is a web application that allows the admin to manage the data of teachers by doing all the CRUD operations. The data is displayed in table format. And the data is taken through a form.",
         technologies: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB", "Bootstrap"],
-        githubLink: "https://github.com/sainesh25/School_Management_System.git"
+        githubLink: "https://github.com/sainesh25/School_Management_System.git",
+        siteLink: ''
     },
     {
         title: "Savings Calculator",
         description: "The React-based web app enables users to track income and expenses, offering a simple interface for inputting financial transactions. It dynamically calculates and displays total income, expenses, and savings, providing users with a quick and efficient way to manage their finances.",
         technologies: ["ReactJs", "Tailwind CSS"],
-        githubLink: "https://github.com/sainesh25/savings_calculator.git"
+        githubLink: "https://github.com/sainesh25/savings_calculator.git",
+        siteLink: 'https://savings-calculator-by-saineshp.netlify.app/',
     },
     {
         title: "Portfolio",
         description: "Showcasing a diverse range of innovative projects, this React-based portfolio demonstrates my skills in web development, problem-solving, and creative design. Explore my journey and the impactful solutions I've developed.",
         technologies: ["Next.js", "Tailwind CSS"],
-        githubLink: "https://github.com/sainesh25/my_portfolio"
+        githubLink: "https://github.com/sainesh25/my_portfolio",
+        siteLink: '',
     },
     {
         title: "Weather Application",
         description: "The Weather App is a responsive and user-friendly application developed with React.js. It provides real-time weather information for any city, offering a seamless user experience.",
         technologies: ["ReactJs", "OpenWeatherMap_API"],
-        githubLink: "https://github.com/sainesh25/weather_app"
+        githubLink: "https://github.com/sainesh25/weather_app",
+        siteLink: ''
     }
 ];
 
