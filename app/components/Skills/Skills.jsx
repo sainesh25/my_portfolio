@@ -10,13 +10,13 @@ const robotoMono = Roboto_Mono({
 export default function Skills() {
   const frontendSkills = ["JavaScript", "React.js", "Bootstrap", "Next.js", "Tailwind CSS", "HTML5", "CSS3", "jQuery", "WordPress"]
   const backendSkills = ["Node.js", "Express.js"]
-  const tools = ["Git", "Fork", "GitLab", "GitHub"]
+  const tools = ["Git", "Fork", "GitLab", "GitHub", "Termius", "Postman"]
 
   return (
     <div className="py-8 px-4 md:px-8 flex flex-col items-center" id="skillId">
-      <h1 className="text-[#cacaca] font-bold text-2xl md:text-4xl text-center mb-8">
+      <h2 className="text-[#cacaca] font-bold text-2xl md:text-4xl text-center mb-8">
         What I am Good at ?
-      </h1>
+      </h2>
       
       <div className="text-center">
         <h2 className={`font-mono text-lg font-bold md:text-xl text-[#cacaca] mb-4`}>
@@ -53,9 +53,7 @@ export default function Skills() {
                 text-white font-semibold
                 px-4 py-2 md:px-6 md:py-2
                 rounded-full text-sm md:text-base
-                shadow-[1px_1px_30px_#8e2de2]
-                
-                
+                shadow-[1px_1px_30px_#8e2de2]   
               `}
             >
               {item}
