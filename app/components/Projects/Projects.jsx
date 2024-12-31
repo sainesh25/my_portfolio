@@ -121,7 +121,7 @@ const featuredProjects = [
     {
         title: "Portfolio",
         description: "Showcasing a diverse range of innovative projects, this React-based portfolio demonstrates my skills in web development, problem-solving, and creative design. Explore my journey and the impactful solutions I've developed.",
-        technologies: ["Next.js", "Tailwind CSS"],
+        technologies: ["Next.js", "Tailwind CSS", "Framer-motion"],
         githubLink: "https://github.com/sainesh25/my_portfolio",
         siteLink: '',
     },
