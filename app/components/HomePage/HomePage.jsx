@@ -8,6 +8,7 @@ import Social from '../Socials/Social'
 import Skills from '../Skills/Skills'
 import Projects from '../Projects/Projects'
 import ScrollProgress from '@/components/ui/scroll-progress'
+import { Experience } from '../Experience/Experience'
 
 export default function HomePage() {
 
@@ -21,6 +22,7 @@ export default function HomePage() {
                 <div className="max-w-7xl">
                     <MyName />
                     <Skills/>
+                    <Experience/>
                     <Projects/>
                     <Contact />
                     <Social/>
