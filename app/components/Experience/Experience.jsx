@@ -15,24 +15,24 @@ export function Experience() {
             <div className="rounded-lg h-20 md:h-44 lg:h-60 w-full p-4 bg-neutral-900 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <h3 className="text-[#cacaca] text-sm">Smaaash Games Booking</h3>
               <p className="text-[#cacaca] text-xs">Enhanced UX with Framer Motion, 25% faster load time</p>
-              <Image src={'/bookingengine.png'} className="h-[80%] mt-2 w-full object-contain rounded-md object-top" width={0} height={0} unoptimized alt="Sainesh's projects" />
+              <Image src={'/bookingengine.png'} className="md:block hidden h-[80%] mt-2 w-full object-contain rounded-md object-top" width={0} height={0} unoptimized alt="Sainesh's projects" />
             </div>
             <div className="rounded-lg h-20 md:h-44 lg:h-60 w-full p-4 bg-neutral-900 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <h3 className="text-[#cacaca] text-sm">MELO Music Platform</h3>
               <p className="text-[#cacaca] text-xs">Led team of 3, 30% faster page loads</p>
-              <Image src={'/melo.png'} className="h-[80%] mt-2 w-full object-cover rounded-md object-top" width={0} height={0} unoptimized alt="Sainesh's projects" />
+              <Image src={'/melo.png'} className="md:block hidden h-[80%] mt-2 w-full object-cover rounded-md object-top" width={0} height={0} unoptimized alt="Sainesh's projects" />
 
             </div>
             <div className="rounded-lg h-20 md:h-44 lg:h-60 w-full p-4 bg-neutral-900 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <h3 className="text-[#cacaca] text-sm">Omarun Pharma</h3>
               <p className="text-[#cacaca] text-xs">E-commerce with ShadCN, 20% faster development</p>
-              <Image src={'/omarun.png'} className="h-[80%] mt-2 w-full object-cover rounded-md object-top" width={0} height={0} unoptimized alt="Sainesh's projects" />
+              <Image src={'/omarun.png'} className="md:block hidden h-[80%] mt-2 w-full object-cover rounded-md object-top" width={0} height={0} unoptimized alt="Sainesh's projects" />
 
             </div>
             <div className="rounded-lg h-20 md:h-44 lg:h-60 w-full p-4 bg-neutral-900 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <h3 className="text-[#cacaca] text-sm">Kenmark Website</h3>
               <p className="text-[#cacaca] text-xs">40% increase in user engagement</p>
-              <Image src={'/kenmark.png'} className="h-[80%] mt-2 w-full object-cover rounded-md object-top" width={0} height={0} unoptimized alt="Sainesh's projects" />
+              <Image src={'/kenmark.png'} className="md:block hidden h-[80%] mt-2 w-full object-cover rounded-md object-top" width={0} height={0} unoptimized alt="Sainesh's projects" />
 
             </div>
           </div>

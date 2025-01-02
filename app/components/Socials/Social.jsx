@@ -10,7 +10,7 @@ export default function Social() {
     return (
         <>
             {/* Social icons for desktop */}
-            <div className="sm:block hidden fixed top-[40vh] left-[-1rem]">
+            <div className="md:block hidden fixed top-[40vh] left-[-1rem]">
                 <div className="flex flex-col items-center w-24">
                     <Link
                         href="https://www.linkedin.com/in/sainesh-patil/"
@@ -49,7 +49,7 @@ export default function Social() {
             </div>
 
             {/* Email link for desktop */}
-            <div className="hidden fixed sm:flex flex-col items-center right-[-4rem] bottom-[-4vh]">
+            <div className="hidden fixed md:flex flex-col items-center right-[-4rem] bottom-[-4vh]">
                 <Link
                     href="mailto:patilsainesh25@gmail.com"
                     className="font-mono relative text-[#cacaca] transform top-[-87px] rotate-90 transition-transform hover:-translate-y-2 hover:text-purple-600"
@@ -60,7 +60,7 @@ export default function Social() {
             </div>
 
             {/* Social icons for mobile */}
-            <div className="bottom-0 left-0 w-full flex justify-evenly sm:hidden">
+            <div className="bottom-0 left-0 w-full flex justify-evenly md:hidden">
                 <Link
                     href="https://www.linkedin.com/in/sainesh-patil/"
                     target="_blank"
