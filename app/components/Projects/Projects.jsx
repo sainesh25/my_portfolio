@@ -136,6 +136,13 @@ const featuredProjects = [
 
 const otherProjects = [
     {
+        title: "Task Management App",
+        description: "Task management app with React and local storage. Features: add, view, complete, and delete tasks. Responsive design using Tailwind CSS.",
+        technologies: ["ReactJs", "TailwindCSS"],
+        githubLink: "https://github.com/sainesh25/TaskManagementApp",
+        liveLink: "https://task-management-app-by-sainesh.vercel.app/"
+    },
+    {
         title: "Quote Generator",
         description: "Designed a brief quote generator with copy-to-clipboard functionality. Users can easily generate and share quotes on Twitter, enhancing accessibility and user experience.",
         technologies: ["HTML5", "CSS3", "JavaScript"],
