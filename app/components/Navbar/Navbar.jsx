@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-20 py-2 backdrop-blur-lg bg-[#1c1c1cb7] border-b border-[#ffffff10] transition-transform duration-500 ${
+      className={`fixed top-0 w-full z-50 py-2 backdrop-blur-lg bg-[#1c1c1cb7] border-b border-[#ffffff10] transition-transform duration-500 ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
