@@ -53,14 +53,19 @@ export function Experience() {
             <div className="rounded-lg h-20 md:h-44 lg:h-60 w-full p-4 bg-neutral-900 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <h3 className="text-[#cacaca] text-sm">School Management System</h3>
               <p className="text-[#cacaca] text-xs">Full CRUD operations with MERN stack</p>
+              
             </div>
             <div className="rounded-lg h-20 md:h-44 lg:h-60 w-full p-4 bg-neutral-900 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <h3 className="text-[#cacaca] text-sm">Weather Application</h3>
               <p className="text-[#cacaca] text-xs">Real-time updates using React.js</p>
+              <Image src={'/weatherapp.png'} className="md:block hidden h-[80%] mt-2 w-full object-cover rounded-md object-top" width={0} height={0} unoptimized alt="Sainesh's projects" />
+
             </div>
             <div className="rounded-lg h-20 md:h-44 lg:h-60 w-full p-4 bg-neutral-900 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <h3 className="text-[#cacaca] text-sm">WordPress Development</h3>
               <p className="text-[#cacaca] text-xs">Freelance projects for Inteledyne and Dr. Cindy</p>
+              <Image src={'/wordpress.webp'} className="md:block hidden h-[80%] mt-2 w-full object-cover rounded-md object-top" width={0} height={0} unoptimized alt="Sainesh's projects" />
+
             </div>
             <div className="rounded-lg h-20 md:h-44 lg:h-60 w-full p-4 bg-neutral-900 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]">
               <h3 className="text-[#cacaca] text-sm">Technical Skills</h3>
